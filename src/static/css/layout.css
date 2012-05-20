@@ -1,0 +1,169 @@
+body
+{
+    font-size:13px;
+    font-family:"Palatino", "Georgia", "Lucida Grande", "Helvetica", "Verdana","Serif";
+    margin: 8px;
+}
+
+p
+{
+    line-height: 130%;
+    margin: 1.2em 0em
+}
+
+h1
+{
+    font-size:28px;
+    font-family:"Arial","Trebuchet","Serif";
+    margin-top: 0.75em; 
+    margin-bottom: 0.1em; 
+    padding-bottom: 0em; 
+}
+
+
+h2
+{
+    font-size:24px;
+    font-family:"Arial","Trebuchet","Serif";
+    margin-top: 0.75em; 
+    margin-bottom: 1em; 
+    padding-bottom: 0em; 
+}
+
+h3
+{
+    font-size:20px;
+    font-family:"Arial","Trebuchet","Serif"; 
+    margin-top: 0.75em; 
+    margin-bottom: 0em; 
+    padding-bottom: 0em; 
+}
+
+
+a
+{
+    color: #5351a4;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active 
+{
+}
+
+a:hover 
+{
+    color: #1a171b;
+}
+
+
+
+
+#input_area
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+input[type="text"], input[type="password"], textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #CFD9CF;
+    width: 200px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus
+{
+    background-image: none;
+    background-color: #ffffff;
+    border: solid 1px #000000;
+}
+
+div.field_error input {
+    border: solid #ff0000 1px;
+}
+
+
+input[type="submit"]
+{
+    border: none;
+    background: url('/static/css/images/button.png') no-repeat top left;
+    padding: 2px 20px 20px 20px;
+}
+
+
+table
+{
+    white-space:nowrap;
+}
+
+
+tr.odd, tr.odd_disabled
+{
+    background-color: #eeeeee;
+}
+
+
+tr.even, tr.even_disabled
+{
+    background-color: #ffffff;
+}
+
+
+tr.odd:hover, tr.even:hover
+{
+    background-color: #ccccf8;
+}
+
+td.tablecell
+{
+    padding:15px;
+}
+
+td.centered
+{
+    text-align:center;
+}
+
+
+.button h2, .widget h2 
+{
+	  color: #fff;
+    background-color: #333333;
+    line-height: 2.6em;
+    padding-left: 18px;
+    margin-bottom: 30px;
+	 border-radius: 12px;
+}
+
+.widget 
+{
+     background-color: #ddddee;
+     padding-bottom: 10px;
+     font-size:24px;
+     min-height:250px;
+     height:auto !important;
+     height:250px;
+	 border-radius: 12px;
+}
+
+.button h2 
+{
+     text-align:center;
+	 border-radius: 12px;
+}
+
+.button h2 a, .widget h2 a 
+{
+    color: #fff;
+}
+
+.button #content, .widget #content
+{
+      margin-left:15px;
+}

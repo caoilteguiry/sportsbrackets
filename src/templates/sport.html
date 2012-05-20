@@ -1,0 +1,22 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+<h1>{{sport.name}}</h1>
+<h2>Tournaments</h2>
+<table width="100%">
+  <tr>
+    <td class="header tablecell"></td>
+    <td class="header tablecell">{% trans "Name" %}</td>
+    <td class="header tablecell">{% trans "Begins" %}</td>
+    <td class="header tablecell">{% trans "Ends" %}</td>
+  </tr>
+{% for t in tournaments %}
+  <tr onclick="window.location='/tournaments/{{t.id}}/fixtures/'" class="{% cycle 'odd' 'even'%}">
+      <td class="tablecell">{{forloop.counter}}</td>
+      <td class="tablecell">{{t.name}}</td>
+      <td class="tablecell">{{t.begin_date}}</td>
+      <td class="tablecell" >{{t.end_date}}</td>
+  </tr>
+{% endfor %}
+</table>
+{% endblock %}

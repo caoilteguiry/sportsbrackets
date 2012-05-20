@@ -1,0 +1,52 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+<h1>{{ tournament }}</h1>
+
+
+<span style="font-weight:bold; font-size:24px">
+  <a href="/tournaments/{{tournament_id}}/fixtures">{% trans "Fixtures" %}</a>
+</span>
+<span style="font-weight:bold; font-size:24px"> 
+  |
+</span>
+<span style="font-weight:bold; font-size:24px">
+  {% trans "Table" %}
+</span>
+
+
+<table width="100%">
+  <tr>
+    <td class="header">{% trans "Pos" %} </td>
+    <td class="header">{% trans "Name" %}</td>
+    <td title="{% trans "Games Played" %}" class="header">P</td>
+    <td title="{% trans "Correct Win Guess - " %}" class="header">CW </td>
+    <td title="{% trans "Semi-correct Win Guess - " %}" class="header">SW </td>
+    <td title="{% trans "Incorrect Wins - " %}" class="header">IW </td>
+    <td title="{% trans "Correct Draw Guess - " %}" class="header">CD </td>
+    <td title="{% trans "Incorrect Draw Guess - " %}" class="header">ID </td>  {# TODO: add tooltips (e.g. '3 points') #}
+    <td class="header">Pts </td>
+		
+  </tr>
+{% for uap in users_and_points %}
+  <tr class="{% cycle 'odd' 'even'%}{% if not uap.user.get_profile.share_predictions %}_disabled{% endif %}">
+  	<td class="tablecell">{{forloop.counter}}</td>
+    <td title="{{uap.user.first_name}} {{uap.user.last_name}}" class="tablecell">
+      {% if uap.user.get_profile.share_predictions %}
+      <a href="/tournaments/{{tournament_id}}/predictions/{{uap.user.id}}">{{uap.user}}</a>
+      {% else %}
+      {{uap.user}}  
+      {% endif %}
+    </td>
+		<td class="tablecell">{{uap.played}}</td>
+		<td class="tablecell">{{uap.correct_wins}}</td>
+		<td class="tablecell">{{uap.semicorrect_wins}}</td>
+		<td class="tablecell">{{uap.incorrect_wins}}</td>
+		<td class="tablecell">{{uap.correct_draws}}</td>
+		<td class="tablecell">{{uap.incorrect_draws}}</td>
+		<td class="tablecell">{{uap.points}}</td>
+	</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

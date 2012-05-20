@@ -1,0 +1,69 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+<h1>{{ tournament }}</h1>
+<span style="font-weight:bold; font-size:24px">
+  {% trans "Fixtures" %}
+</span>
+<span style="font-weight:bold; font-size:24px">
+  |
+</span>
+<span style="font-weight:bold; font-size:24px">
+  <a href="/tournaments/{{tournament_id}}/table">{% trans "Table" %}</a>
+</span>
+{% if fixtures %}
+<form action="" method="post">
+  {% csrf_token %}
+  <div style="text-align:right">
+    <input type="submit" name="submit_button" value="{% trans "Save" %}"/>
+  </div>
+<table>
+  <tr>
+    <td class="header tablecell">{% trans "Game No" %}</td>
+    <td class="header tablecell">{% trans "Date" %}</td>
+    <td class="header tablecell">{% trans "Venue" %}</td>
+    <td class="header tablecell">{% trans "Team 1" %}</td>
+    <td class="header tablecell">{% trans "Team 2" %}</td>
+    <td class="header tablecell">{% trans "Match Type" %}</td>
+        {% for rt in all_result_types %}
+        <td class="header tablecell">{{rt.name}}</td>
+        {% endfor %}
+{% for game in games %}
+  <tr class="{% cycle 'odd' 'even'%}{% if game.is_disabled %}_disabled{%endif%}">
+    <td class="tablecell">{{forloop.revcounter}}</td>
+    <td class="tablecell">{{game.fixture.date|date:"H:i, d M"}}</td>
+    <td class="tablecell">{{game.fixture.venue}}</td>
+    <td class="tablecell">{{game.fixture.team1.name}}</td>
+    <td class="tablecell">{{game.fixture.team2.name}}</td>
+    <td class="tablecell">{{game.fixture.fixture_type}}</td>
+        {% for rt in game.result_types %} 
+        <td class="tablecell centered" 
+          {# FIXME: this is far too convoluted #}
+          {% if rt.id == game.fixture.result.id %} 
+            style="background-color: #acf8ac;" 
+          {% else %}
+            {% if rt.id == game.prediction.result.id %}
+             {% if game.fixture.result %} 
+               style="background-color: #f8acac;"
+             {% endif %}
+            {% endif %}
+          {% endif %}
+        >
+        <input type="radio" id="{{game.fixture.pk}}" name="{{game.fixture.pk}}" value="{{rt.id}}"
+         {%if game.prediction.result == rt%} checked="checked"{%endif%}
+         {%if game.is_disabled %}disabled{% endif %}>
+       
+        </td>
+        {% endfor %}
+  </tr>
+{% endfor %}
+</table>
+<div style="text-align:right">
+    <input type="submit" name="submit_button" value="{% trans "Save" %}"/>
+</div>
+</form>
+{% else %}
+<br>
+No fixtures found
+{% endif %}
+{% endblock %}

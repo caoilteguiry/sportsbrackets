@@ -1,0 +1,13 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+<h1>{% trans "My Profile" %}</h1>
+{# TODO: add i18n selector here #}
+<form action="" method="post">
+  {% csrf_token %}
+  {{form.as_p}}
+  <input type="submit" id="ok" name="ok" value="{% trans "Save"%}">
+</form>
+
+
+{% endblock %}

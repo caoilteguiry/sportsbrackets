@@ -1,0 +1,38 @@
+{% extends "base_unauth.html" %}
+{% load i18n %}
+{% block extra_js %}
+<script type="text/javascript">
+$(function() 
+{
+  $("#username").focus();
+});
+</script>
+
+{% endblock %}
+{% block content %}
+<h1>{% trans "Login" %}</h1>
+{% trans "Please enter your login details below:" %}
+{% if form.errors %}
+<div style="color:red">
+    {% trans "Login Failed." %}
+</div>
+{% endif %}
+
+<form action="" method="post">
+    {% csrf_token %}
+    <div id="input_area">
+        {% trans "Username" %}
+	    <input id="username" name="username" type="text"/>
+     	{% trans "Password" %}
+	    <input id="password" name="password" type="password"/>
+    	<input id="ok" name="ok" type="submit" value="login">
+  </div>
+</form>
+<!--div>
+	<a href="/forgot_password">{% trans "I forgot my password..." %}</a>
+</div-->
+<div>
+	<a href="/register">{% trans "I would like to register..." %}</a>
+</div>
+
+{% endblock %}

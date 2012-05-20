@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block banner %}
+<div style="float:left">
+    <form name="langform" action="/i18n/setlang/" method="POST">
+       {% csrf_token %}
+       <select name="language" id="language" onchange="this.form.submit()">
+         {% for LANG in LANGUAGES  %}
+            <option {% if LANG.0 == LANGUAGE_CODE %}selected{% endif %} value="{{LANG.0}}">{{LANG.1}}</option>
+         {% endfor %}
+       </select>
+    </form>
+</div>
+<div style="float:right">
+  <a href="/">{% trans "Home" %}</a> |
+  {% if request.user.is_staff %}
+  <a href="/admin">{% trans "Admin" %}</a> |
+  {% endif %}
+  <a href="/my_profile">{% trans "My Profile" %}</a> |
+  <a href="/logout">{% trans "Logout" %}</a> 
+</div>
+<div style="clear: both;"></div>
+{% endblock %}

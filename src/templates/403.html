@@ -1,0 +1,5 @@
+{% load i18n %}
+<h1>{% trans "An error has occurred" %}</h1>
+{% trans "Forbidden" %} (403). {{reason}} <br>
+{{resolution}} <br>
+<a href="{{request.path}}">{% trans "Please try again." %}</a>

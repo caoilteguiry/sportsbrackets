@@ -1,0 +1,25 @@
+{% load i18n %}<!doctype html>
+<html>
+	{% block head %}<head>
+        <title>{% block title %}{{ site_prefs.SITE_NAME }}{% block subtitle %}{% endblock %}{% endblock %}</title>
+        {% block base_css %}
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/reset.css" >
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/layout.css" >
+        <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/960gs.css">
+		{% endblock %}
+		{% block extra_css %}{% endblock %}
+	</head>
+  {% endblock %}
+	{% block body %}
+	<body>
+	  {% block banner %}
+    {% endblock %}
+		{% block content %}
+		{% endblock %}
+	</body>
+	{% endblock %}
+    {% block base_js %}
+    <script type="text/javascript" src="{{STATIC_URL}}javascript/lib/jquery-1.5.1.min.js"></script>
+    {% endblock %}
+    {% block extra_js %}{% endblock %}    
+</html>

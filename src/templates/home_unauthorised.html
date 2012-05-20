@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+
+
+<div class="container container_12">
+  <div class="grid_3">&nbsp;</div>
+	<div class="grid_3">
+    <a href="/login">
+    <div class="button">
+	   <h2>{% trans "Login" %}</h2>
+		</div>
+	</div>
+    </a>
+			
+  <div class="grid_3">
+    <a href="/register">
+    <div class="button">			
+			<h2>{% trans "Register" %}</h2>
+    </div>
+    </a>
+  </div>
+	<div class="grid_3">&nbsp;</div>
+</div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block extra_js %}
+<script type="text/javascript">
+$(function() 
+{
+  $("#id_username").focus();
+});
+</script>
+
+{% endblock %}
+{% block content %}
+<h1>{% trans "Registration" %}</h1>
+{% if form.errors or form.non_field_errors %}
+<p style="color:red">
+  {% trans "There was a problem registering. Please review your registration details below" %}
+  {% for error in form.non_field_errors %}
+	 <div>{{ error|escape }}</div>
+  {% endfor %}	
+</p>
+{% else %}
+<p>
+  <div>
+    {% trans "Please enter your registration details below:" %}
+  </div>
+</p>
+{% endif %}
+<form action="" method="post">
+	{% csrf_token %}
+	<div id="input_area">
+  {% for field in form %}
+	  {{ field.label_tag }}
+		<div class="{% if field.errors %}field_error{%endif%}">
+		  {{field}}
+      {% if field.errors %}
+      <span style="color:#cccccc">{{field.errors}}</span>
+      {% else %}
+       <span>&nbsp;</span>
+      {% endif %} 
+    </div>
+	{% endfor %}
+  </div>
+	<input type="submit" id="ok" name="ok" value="Join">
+	<!--div><em>{% trans "*denotes required field" %}</em></div-->
+</form>
+ <a href="/login">{% trans "Already registered?" %}</a>
+{% endblock %}

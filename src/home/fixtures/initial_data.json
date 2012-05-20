@@ -1,0 +1,7365 @@
+[
+    {
+        "pk": 1,
+        "model": "home.sport",
+        "fields": {
+            "name": "Soccer"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.sport",
+        "fields": {
+            "name": "Rugby"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "home.country",
+        "fields": {
+            "code": "AF",
+            "name": "Afghanistan"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.country",
+        "fields": {
+            "code": "AX",
+            "name": "\u00c5Land Islands"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "home.country",
+        "fields": {
+            "code": "AL",
+            "name": "Albania"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "home.country",
+        "fields": {
+            "code": "DZ",
+            "name": "Algeria"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "home.country",
+        "fields": {
+            "code": "AS",
+            "name": "American Samoa"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "home.country",
+        "fields": {
+            "code": "AD",
+            "name": "Andorra"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "home.country",
+        "fields": {
+            "code": "AO",
+            "name": "Angola"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "home.country",
+        "fields": {
+            "code": "AI",
+            "name": "Anguilla"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "home.country",
+        "fields": {
+            "code": "AQ",
+            "name": "Antarctica"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "home.country",
+        "fields": {
+            "code": "AG",
+            "name": "Antigua And Barbuda"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "home.country",
+        "fields": {
+            "code": "AR",
+            "name": "Argentina"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "home.country",
+        "fields": {
+            "code": "AM",
+            "name": "Armenia"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "home.country",
+        "fields": {
+            "code": "AW",
+            "name": "Aruba"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "home.country",
+        "fields": {
+            "code": "AU",
+            "name": "Australia"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "home.country",
+        "fields": {
+            "code": "AT",
+            "name": "Austria"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "home.country",
+        "fields": {
+            "code": "AZ",
+            "name": "Azerbaijan"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "home.country",
+        "fields": {
+            "code": "BS",
+            "name": "Bahamas"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "home.country",
+        "fields": {
+            "code": "BH",
+            "name": "Bahrain"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "home.country",
+        "fields": {
+            "code": "BD",
+            "name": "Bangladesh"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "home.country",
+        "fields": {
+            "code": "BB",
+            "name": "Barbados"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "home.country",
+        "fields": {
+            "code": "BY",
+            "name": "Belarus"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "home.country",
+        "fields": {
+            "code": "BE",
+            "name": "Belgium"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "home.country",
+        "fields": {
+            "code": "BZ",
+            "name": "Belize"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "home.country",
+        "fields": {
+            "code": "BJ",
+            "name": "Benin"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "home.country",
+        "fields": {
+            "code": "BM",
+            "name": "Bermuda"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "home.country",
+        "fields": {
+            "code": "BT",
+            "name": "Bhutan"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "home.country",
+        "fields": {
+            "code": "BO",
+            "name": "Bolivia, Plurinational State Of"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "home.country",
+        "fields": {
+            "code": "BQ",
+            "name": "Bonaire, Sint Eustatius And Saba"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "home.country",
+        "fields": {
+            "code": "BA",
+            "name": "Bosnia And Herzegovina"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "home.country",
+        "fields": {
+            "code": "BW",
+            "name": "Botswana"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "home.country",
+        "fields": {
+            "code": "BV",
+            "name": "Bouvet Island"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "home.country",
+        "fields": {
+            "code": "BR",
+            "name": "Brazil"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "home.country",
+        "fields": {
+            "code": "IO",
+            "name": "British Indian Ocean Territory"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "home.country",
+        "fields": {
+            "code": "BN",
+            "name": "Brunei Darussalam"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "home.country",
+        "fields": {
+            "code": "BG",
+            "name": "Bulgaria"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "home.country",
+        "fields": {
+            "code": "BF",
+            "name": "Burkina Faso"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "home.country",
+        "fields": {
+            "code": "BI",
+            "name": "Burundi"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "home.country",
+        "fields": {
+            "code": "KH",
+            "name": "Cambodia"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "home.country",
+        "fields": {
+            "code": "CM",
+            "name": "Cameroon"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "home.country",
+        "fields": {
+            "code": "CA",
+            "name": "Canada"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "home.country",
+        "fields": {
+            "code": "CV",
+            "name": "Cape Verde"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "home.country",
+        "fields": {
+            "code": "KY",
+            "name": "Cayman Islands"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "home.country",
+        "fields": {
+            "code": "CF",
+            "name": "Central African Republic"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "home.country",
+        "fields": {
+            "code": "TD",
+            "name": "Chad"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "home.country",
+        "fields": {
+            "code": "CL",
+            "name": "Chile"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "home.country",
+        "fields": {
+            "code": "CN",
+            "name": "China"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "home.country",
+        "fields": {
+            "code": "CX",
+            "name": "Christmas Island"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "home.country",
+        "fields": {
+            "code": "CC",
+            "name": "Cocos (Keeling) Islands"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "home.country",
+        "fields": {
+            "code": "CO",
+            "name": "Colombia"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "home.country",
+        "fields": {
+            "code": "KM",
+            "name": "Comoros"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "home.country",
+        "fields": {
+            "code": "CG",
+            "name": "Congo"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "home.country",
+        "fields": {
+            "code": "CD",
+            "name": "Congo, The Democratic Republic Of The"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "home.country",
+        "fields": {
+            "code": "CK",
+            "name": "Cook Islands"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "home.country",
+        "fields": {
+            "code": "CR",
+            "name": "Costa Rica"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "home.country",
+        "fields": {
+            "code": "CI",
+            "name": "C\u00d4Te D'Ivoire"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "home.country",
+        "fields": {
+            "code": "HR",
+            "name": "Croatia"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "home.country",
+        "fields": {
+            "code": "CU",
+            "name": "Cuba"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "home.country",
+        "fields": {
+            "code": "CW",
+            "name": "Cura\u00c7Ao"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "home.country",
+        "fields": {
+            "code": "CY",
+            "name": "Cyprus"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "home.country",
+        "fields": {
+            "code": "CZ",
+            "name": "Czech Republic"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "home.country",
+        "fields": {
+            "code": "DK",
+            "name": "Denmark"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "home.country",
+        "fields": {
+            "code": "DJ",
+            "name": "Djibouti"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "home.country",
+        "fields": {
+            "code": "DM",
+            "name": "Dominica"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "home.country",
+        "fields": {
+            "code": "DO",
+            "name": "Dominican Republic"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "home.country",
+        "fields": {
+            "code": "EC",
+            "name": "Ecuador"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "home.country",
+        "fields": {
+            "code": "EG",
+            "name": "Egypt"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "home.country",
+        "fields": {
+            "code": "SV",
+            "name": "El Salvador"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "home.country",
+        "fields": {
+            "code": "GQ",
+            "name": "Equatorial Guinea"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "home.country",
+        "fields": {
+            "code": "ER",
+            "name": "Eritrea"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "home.country",
+        "fields": {
+            "code": "EE",
+            "name": "Estonia"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "home.country",
+        "fields": {
+            "code": "ET",
+            "name": "Ethiopia"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "home.country",
+        "fields": {
+            "code": "FK",
+            "name": "Falkland Islands (Malvinas)"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "home.country",
+        "fields": {
+            "code": "FO",
+            "name": "Faroe Islands"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "home.country",
+        "fields": {
+            "code": "FJ",
+            "name": "Fiji"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "home.country",
+        "fields": {
+            "code": "FI",
+            "name": "Finland"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "home.country",
+        "fields": {
+            "code": "FR",
+            "name": "France"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "home.country",
+        "fields": {
+            "code": "GF",
+            "name": "French Guiana"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "home.country",
+        "fields": {
+            "code": "PF",
+            "name": "French Polynesia"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "home.country",
+        "fields": {
+            "code": "TF",
+            "name": "French Southern Territories"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "home.country",
+        "fields": {
+            "code": "GA",
+            "name": "Gabon"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "home.country",
+        "fields": {
+            "code": "GM",
+            "name": "Gambia"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "home.country",
+        "fields": {
+            "code": "GE",
+            "name": "Georgia"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "home.country",
+        "fields": {
+            "code": "DE",
+            "name": "Germany"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "home.country",
+        "fields": {
+            "code": "GH",
+            "name": "Ghana"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "home.country",
+        "fields": {
+            "code": "GI",
+            "name": "Gibraltar"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "home.country",
+        "fields": {
+            "code": "GR",
+            "name": "Greece"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "home.country",
+        "fields": {
+            "code": "GL",
+            "name": "Greenland"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "home.country",
+        "fields": {
+            "code": "GD",
+            "name": "Grenada"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "home.country",
+        "fields": {
+            "code": "GP",
+            "name": "Guadeloupe"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "home.country",
+        "fields": {
+            "code": "GU",
+            "name": "Guam"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "home.country",
+        "fields": {
+            "code": "GT",
+            "name": "Guatemala"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "home.country",
+        "fields": {
+            "code": "GG",
+            "name": "Guernsey"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "home.country",
+        "fields": {
+            "code": "GN",
+            "name": "Guinea"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "home.country",
+        "fields": {
+            "code": "GW",
+            "name": "Guinea-Bissau"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "home.country",
+        "fields": {
+            "code": "GY",
+            "name": "Guyana"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "home.country",
+        "fields": {
+            "code": "HT",
+            "name": "Haiti"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "home.country",
+        "fields": {
+            "code": "HM",
+            "name": "Heard Island And Mcdonald Islands"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "home.country",
+        "fields": {
+            "code": "VA",
+            "name": "Holy See (Vatican City State)"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "home.country",
+        "fields": {
+            "code": "HN",
+            "name": "Honduras"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "home.country",
+        "fields": {
+            "code": "HK",
+            "name": "Hong Kong"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "home.country",
+        "fields": {
+            "code": "HU",
+            "name": "Hungary"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "home.country",
+        "fields": {
+            "code": "IS",
+            "name": "Iceland"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "home.country",
+        "fields": {
+            "code": "IN",
+            "name": "India"
+        }
+    },
+    {
+        "pk": 104,
+        "model": "home.country",
+        "fields": {
+            "code": "ID",
+            "name": "Indonesia"
+        }
+    },
+    {
+        "pk": 105,
+        "model": "home.country",
+        "fields": {
+            "code": "IR",
+            "name": "Iran, Islamic Republic Of"
+        }
+    },
+    {
+        "pk": 106,
+        "model": "home.country",
+        "fields": {
+            "code": "IQ",
+            "name": "Iraq"
+        }
+    },
+    {
+        "pk": 107,
+        "model": "home.country",
+        "fields": {
+            "code": "IE",
+            "name": "Ireland"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "home.country",
+        "fields": {
+            "code": "IM",
+            "name": "Isle Of Man"
+        }
+    },
+    {
+        "pk": 109,
+        "model": "home.country",
+        "fields": {
+            "code": "IL",
+            "name": "Israel"
+        }
+    },
+    {
+        "pk": 110,
+        "model": "home.country",
+        "fields": {
+            "code": "IT",
+            "name": "Italy"
+        }
+    },
+    {
+        "pk": 111,
+        "model": "home.country",
+        "fields": {
+            "code": "JM",
+            "name": "Jamaica"
+        }
+    },
+    {
+        "pk": 112,
+        "model": "home.country",
+        "fields": {
+            "code": "JP",
+            "name": "Japan"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "home.country",
+        "fields": {
+            "code": "JE",
+            "name": "Jersey"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "home.country",
+        "fields": {
+            "code": "JO",
+            "name": "Jordan"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "home.country",
+        "fields": {
+            "code": "KZ",
+            "name": "Kazakhstan"
+        }
+    },
+    {
+        "pk": 116,
+        "model": "home.country",
+        "fields": {
+            "code": "KE",
+            "name": "Kenya"
+        }
+    },
+    {
+        "pk": 117,
+        "model": "home.country",
+        "fields": {
+            "code": "KI",
+            "name": "Kiribati"
+        }
+    },
+    {
+        "pk": 118,
+        "model": "home.country",
+        "fields": {
+            "code": "KP",
+            "name": "Korea, Democratic People'S Republic Of"
+        }
+    },
+    {
+        "pk": 119,
+        "model": "home.country",
+        "fields": {
+            "code": "KR",
+            "name": "Korea, Republic Of"
+        }
+    },
+    {
+        "pk": 120,
+        "model": "home.country",
+        "fields": {
+            "code": "KW",
+            "name": "Kuwait"
+        }
+    },
+    {
+        "pk": 121,
+        "model": "home.country",
+        "fields": {
+            "code": "KG",
+            "name": "Kyrgyzstan"
+        }
+    },
+    {
+        "pk": 122,
+        "model": "home.country",
+        "fields": {
+            "code": "LA",
+            "name": "Lao People'S Democratic Republic"
+        }
+    },
+    {
+        "pk": 123,
+        "model": "home.country",
+        "fields": {
+            "code": "LV",
+            "name": "Latvia"
+        }
+    },
+    {
+        "pk": 124,
+        "model": "home.country",
+        "fields": {
+            "code": "LB",
+            "name": "Lebanon"
+        }
+    },
+    {
+        "pk": 125,
+        "model": "home.country",
+        "fields": {
+            "code": "LS",
+            "name": "Lesotho"
+        }
+    },
+    {
+        "pk": 126,
+        "model": "home.country",
+        "fields": {
+            "code": "LR",
+            "name": "Liberia"
+        }
+    },
+    {
+        "pk": 127,
+        "model": "home.country",
+        "fields": {
+            "code": "LY",
+            "name": "Libyan Arab Jamahiriya"
+        }
+    },
+    {
+        "pk": 128,
+        "model": "home.country",
+        "fields": {
+            "code": "LI",
+            "name": "Liechtenstein"
+        }
+    },
+    {
+        "pk": 129,
+        "model": "home.country",
+        "fields": {
+            "code": "LT",
+            "name": "Lithuania"
+        }
+    },
+    {
+        "pk": 130,
+        "model": "home.country",
+        "fields": {
+            "code": "LU",
+            "name": "Luxembourg"
+        }
+    },
+    {
+        "pk": 131,
+        "model": "home.country",
+        "fields": {
+            "code": "MO",
+            "name": "Macao"
+        }
+    },
+    {
+        "pk": 132,
+        "model": "home.country",
+        "fields": {
+            "code": "MK",
+            "name": "Macedonia, The Former Yugoslav Republic Of"
+        }
+    },
+    {
+        "pk": 133,
+        "model": "home.country",
+        "fields": {
+            "code": "MG",
+            "name": "Madagascar"
+        }
+    },
+    {
+        "pk": 134,
+        "model": "home.country",
+        "fields": {
+            "code": "MW",
+            "name": "Malawi"
+        }
+    },
+    {
+        "pk": 135,
+        "model": "home.country",
+        "fields": {
+            "code": "MY",
+            "name": "Malaysia"
+        }
+    },
+    {
+        "pk": 136,
+        "model": "home.country",
+        "fields": {
+            "code": "MV",
+            "name": "Maldives"
+        }
+    },
+    {
+        "pk": 137,
+        "model": "home.country",
+        "fields": {
+            "code": "ML",
+            "name": "Mali"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "home.country",
+        "fields": {
+            "code": "MT",
+            "name": "Malta"
+        }
+    },
+    {
+        "pk": 139,
+        "model": "home.country",
+        "fields": {
+            "code": "MH",
+            "name": "Marshall Islands"
+        }
+    },
+    {
+        "pk": 140,
+        "model": "home.country",
+        "fields": {
+            "code": "MQ",
+            "name": "Martinique"
+        }
+    },
+    {
+        "pk": 141,
+        "model": "home.country",
+        "fields": {
+            "code": "MR",
+            "name": "Mauritania"
+        }
+    },
+    {
+        "pk": 142,
+        "model": "home.country",
+        "fields": {
+            "code": "MU",
+            "name": "Mauritius"
+        }
+    },
+    {
+        "pk": 143,
+        "model": "home.country",
+        "fields": {
+            "code": "YT",
+            "name": "Mayotte"
+        }
+    },
+    {
+        "pk": 144,
+        "model": "home.country",
+        "fields": {
+            "code": "MX",
+            "name": "Mexico"
+        }
+    },
+    {
+        "pk": 145,
+        "model": "home.country",
+        "fields": {
+            "code": "FM",
+            "name": "Micronesia, Federated States Of"
+        }
+    },
+    {
+        "pk": 146,
+        "model": "home.country",
+        "fields": {
+            "code": "MD",
+            "name": "Moldova, Republic Of"
+        }
+    },
+    {
+        "pk": 147,
+        "model": "home.country",
+        "fields": {
+            "code": "MC",
+            "name": "Monaco"
+        }
+    },
+    {
+        "pk": 148,
+        "model": "home.country",
+        "fields": {
+            "code": "MN",
+            "name": "Mongolia"
+        }
+    },
+    {
+        "pk": 149,
+        "model": "home.country",
+        "fields": {
+            "code": "ME",
+            "name": "Montenegro"
+        }
+    },
+    {
+        "pk": 150,
+        "model": "home.country",
+        "fields": {
+            "code": "MS",
+            "name": "Montserrat"
+        }
+    },
+    {
+        "pk": 151,
+        "model": "home.country",
+        "fields": {
+            "code": "MA",
+            "name": "Morocco"
+        }
+    },
+    {
+        "pk": 152,
+        "model": "home.country",
+        "fields": {
+            "code": "MZ",
+            "name": "Mozambique"
+        }
+    },
+    {
+        "pk": 153,
+        "model": "home.country",
+        "fields": {
+            "code": "MM",
+            "name": "Myanmar"
+        }
+    },
+    {
+        "pk": 154,
+        "model": "home.country",
+        "fields": {
+            "code": "NA",
+            "name": "Namibia"
+        }
+    },
+    {
+        "pk": 155,
+        "model": "home.country",
+        "fields": {
+            "code": "NR",
+            "name": "Nauru"
+        }
+    },
+    {
+        "pk": 156,
+        "model": "home.country",
+        "fields": {
+            "code": "NP",
+            "name": "Nepal"
+        }
+    },
+    {
+        "pk": 157,
+        "model": "home.country",
+        "fields": {
+            "code": "NL",
+            "name": "Netherlands"
+        }
+    },
+    {
+        "pk": 158,
+        "model": "home.country",
+        "fields": {
+            "code": "NC",
+            "name": "New Caledonia"
+        }
+    },
+    {
+        "pk": 159,
+        "model": "home.country",
+        "fields": {
+            "code": "NZ",
+            "name": "New Zealand"
+        }
+    },
+    {
+        "pk": 160,
+        "model": "home.country",
+        "fields": {
+            "code": "NI",
+            "name": "Nicaragua"
+        }
+    },
+    {
+        "pk": 161,
+        "model": "home.country",
+        "fields": {
+            "code": "NE",
+            "name": "Niger"
+        }
+    },
+    {
+        "pk": 162,
+        "model": "home.country",
+        "fields": {
+            "code": "NG",
+            "name": "Nigeria"
+        }
+    },
+    {
+        "pk": 163,
+        "model": "home.country",
+        "fields": {
+            "code": "NU",
+            "name": "Niue"
+        }
+    },
+    {
+        "pk": 164,
+        "model": "home.country",
+        "fields": {
+            "code": "NF",
+            "name": "Norfolk Island"
+        }
+    },
+    {
+        "pk": 165,
+        "model": "home.country",
+        "fields": {
+            "code": "MP",
+            "name": "Northern Mariana Islands"
+        }
+    },
+    {
+        "pk": 166,
+        "model": "home.country",
+        "fields": {
+            "code": "NO",
+            "name": "Norway"
+        }
+    },
+    {
+        "pk": 167,
+        "model": "home.country",
+        "fields": {
+            "code": "OM",
+            "name": "Oman"
+        }
+    },
+    {
+        "pk": 168,
+        "model": "home.country",
+        "fields": {
+            "code": "PK",
+            "name": "Pakistan"
+        }
+    },
+    {
+        "pk": 169,
+        "model": "home.country",
+        "fields": {
+            "code": "PW",
+            "name": "Palau"
+        }
+    },
+    {
+        "pk": 170,
+        "model": "home.country",
+        "fields": {
+            "code": "PS",
+            "name": "Palestinian Territory, Occupied"
+        }
+    },
+    {
+        "pk": 171,
+        "model": "home.country",
+        "fields": {
+            "code": "PA",
+            "name": "Panama"
+        }
+    },
+    {
+        "pk": 172,
+        "model": "home.country",
+        "fields": {
+            "code": "PG",
+            "name": "Papua New Guinea"
+        }
+    },
+    {
+        "pk": 173,
+        "model": "home.country",
+        "fields": {
+            "code": "PY",
+            "name": "Paraguay"
+        }
+    },
+    {
+        "pk": 174,
+        "model": "home.country",
+        "fields": {
+            "code": "PE",
+            "name": "Peru"
+        }
+    },
+    {
+        "pk": 175,
+        "model": "home.country",
+        "fields": {
+            "code": "PH",
+            "name": "Philippines"
+        }
+    },
+    {
+        "pk": 176,
+        "model": "home.country",
+        "fields": {
+            "code": "PN",
+            "name": "Pitcairn"
+        }
+    },
+    {
+        "pk": 177,
+        "model": "home.country",
+        "fields": {
+            "code": "PL",
+            "name": "Poland"
+        }
+    },
+    {
+        "pk": 178,
+        "model": "home.country",
+        "fields": {
+            "code": "PT",
+            "name": "Portugal"
+        }
+    },
+    {
+        "pk": 179,
+        "model": "home.country",
+        "fields": {
+            "code": "PR",
+            "name": "Puerto Rico"
+        }
+    },
+    {
+        "pk": 180,
+        "model": "home.country",
+        "fields": {
+            "code": "QA",
+            "name": "Qatar"
+        }
+    },
+    {
+        "pk": 181,
+        "model": "home.country",
+        "fields": {
+            "code": "RE",
+            "name": "R\u00c9Union"
+        }
+    },
+    {
+        "pk": 182,
+        "model": "home.country",
+        "fields": {
+            "code": "RO",
+            "name": "Romania"
+        }
+    },
+    {
+        "pk": 183,
+        "model": "home.country",
+        "fields": {
+            "code": "RU",
+            "name": "Russian Federation"
+        }
+    },
+    {
+        "pk": 184,
+        "model": "home.country",
+        "fields": {
+            "code": "RW",
+            "name": "Rwanda"
+        }
+    },
+    {
+        "pk": 185,
+        "model": "home.country",
+        "fields": {
+            "code": "BL",
+            "name": "Saint Barth\u00c9Lemy"
+        }
+    },
+    {
+        "pk": 186,
+        "model": "home.country",
+        "fields": {
+            "code": "SH",
+            "name": "Saint Helena, Ascension And Tristan Da Cunha"
+        }
+    },
+    {
+        "pk": 187,
+        "model": "home.country",
+        "fields": {
+            "code": "KN",
+            "name": "Saint Kitts And Nevis"
+        }
+    },
+    {
+        "pk": 188,
+        "model": "home.country",
+        "fields": {
+            "code": "LC",
+            "name": "Saint Lucia"
+        }
+    },
+    {
+        "pk": 189,
+        "model": "home.country",
+        "fields": {
+            "code": "MF",
+            "name": "Saint Martin (French Part)"
+        }
+    },
+    {
+        "pk": 190,
+        "model": "home.country",
+        "fields": {
+            "code": "PM",
+            "name": "Saint Pierre And Miquelon"
+        }
+    },
+    {
+        "pk": 191,
+        "model": "home.country",
+        "fields": {
+            "code": "VC",
+            "name": "Saint Vincent And The Grenadines"
+        }
+    },
+    {
+        "pk": 192,
+        "model": "home.country",
+        "fields": {
+            "code": "WS",
+            "name": "Samoa"
+        }
+    },
+    {
+        "pk": 193,
+        "model": "home.country",
+        "fields": {
+            "code": "SM",
+            "name": "San Marino"
+        }
+    },
+    {
+        "pk": 194,
+        "model": "home.country",
+        "fields": {
+            "code": "ST",
+            "name": "Sao Tome And Principe"
+        }
+    },
+    {
+        "pk": 195,
+        "model": "home.country",
+        "fields": {
+            "code": "SA",
+            "name": "Saudi Arabia"
+        }
+    },
+    {
+        "pk": 196,
+        "model": "home.country",
+        "fields": {
+            "code": "SN",
+            "name": "Senegal"
+        }
+    },
+    {
+        "pk": 197,
+        "model": "home.country",
+        "fields": {
+            "code": "RS",
+            "name": "Serbia"
+        }
+    },
+    {
+        "pk": 198,
+        "model": "home.country",
+        "fields": {
+            "code": "SC",
+            "name": "Seychelles"
+        }
+    },
+    {
+        "pk": 199,
+        "model": "home.country",
+        "fields": {
+            "code": "SL",
+            "name": "Sierra Leone"
+        }
+    },
+    {
+        "pk": 200,
+        "model": "home.country",
+        "fields": {
+            "code": "SG",
+            "name": "Singapore"
+        }
+    },
+    {
+        "pk": 201,
+        "model": "home.country",
+        "fields": {
+            "code": "SX",
+            "name": "Sint Maarten (Dutch Part)"
+        }
+    },
+    {
+        "pk": 202,
+        "model": "home.country",
+        "fields": {
+            "code": "SK",
+            "name": "Slovakia"
+        }
+    },
+    {
+        "pk": 203,
+        "model": "home.country",
+        "fields": {
+            "code": "SI",
+            "name": "Slovenia"
+        }
+    },
+    {
+        "pk": 204,
+        "model": "home.country",
+        "fields": {
+            "code": "SB",
+            "name": "Solomon Islands"
+        }
+    },
+    {
+        "pk": 205,
+        "model": "home.country",
+        "fields": {
+            "code": "SO",
+            "name": "Somalia"
+        }
+    },
+    {
+        "pk": 206,
+        "model": "home.country",
+        "fields": {
+            "code": "ZA",
+            "name": "South Africa"
+        }
+    },
+    {
+        "pk": 207,
+        "model": "home.country",
+        "fields": {
+            "code": "GS",
+            "name": "South Georgia And The South Sandwich Islands"
+        }
+    },
+    {
+        "pk": 208,
+        "model": "home.country",
+        "fields": {
+            "code": "ES",
+            "name": "Spain"
+        }
+    },
+    {
+        "pk": 209,
+        "model": "home.country",
+        "fields": {
+            "code": "LK",
+            "name": "Sri Lanka"
+        }
+    },
+    {
+        "pk": 210,
+        "model": "home.country",
+        "fields": {
+            "code": "SD",
+            "name": "Sudan"
+        }
+    },
+    {
+        "pk": 211,
+        "model": "home.country",
+        "fields": {
+            "code": "SR",
+            "name": "Suriname"
+        }
+    },
+    {
+        "pk": 212,
+        "model": "home.country",
+        "fields": {
+            "code": "SJ",
+            "name": "Svalbard And Jan Mayen"
+        }
+    },
+    {
+        "pk": 213,
+        "model": "home.country",
+        "fields": {
+            "code": "SZ",
+            "name": "Swaziland"
+        }
+    },
+    {
+        "pk": 214,
+        "model": "home.country",
+        "fields": {
+            "code": "SE",
+            "name": "Sweden"
+        }
+    },
+    {
+        "pk": 215,
+        "model": "home.country",
+        "fields": {
+            "code": "CH",
+            "name": "Switzerland"
+        }
+    },
+    {
+        "pk": 216,
+        "model": "home.country",
+        "fields": {
+            "code": "SY",
+            "name": "Syrian Arab Republic"
+        }
+    },
+    {
+        "pk": 217,
+        "model": "home.country",
+        "fields": {
+            "code": "TW",
+            "name": "Taiwan, Province Of China"
+        }
+    },
+    {
+        "pk": 218,
+        "model": "home.country",
+        "fields": {
+            "code": "TJ",
+            "name": "Tajikistan"
+        }
+    },
+    {
+        "pk": 219,
+        "model": "home.country",
+        "fields": {
+            "code": "TZ",
+            "name": "Tanzania, United Republic Of"
+        }
+    },
+    {
+        "pk": 220,
+        "model": "home.country",
+        "fields": {
+            "code": "TH",
+            "name": "Thailand"
+        }
+    },
+    {
+        "pk": 221,
+        "model": "home.country",
+        "fields": {
+            "code": "TL",
+            "name": "Timor-Leste"
+        }
+    },
+    {
+        "pk": 222,
+        "model": "home.country",
+        "fields": {
+            "code": "TG",
+            "name": "Togo"
+        }
+    },
+    {
+        "pk": 223,
+        "model": "home.country",
+        "fields": {
+            "code": "TK",
+            "name": "Tokelau"
+        }
+    },
+    {
+        "pk": 224,
+        "model": "home.country",
+        "fields": {
+            "code": "TO",
+            "name": "Tonga"
+        }
+    },
+    {
+        "pk": 225,
+        "model": "home.country",
+        "fields": {
+            "code": "TT",
+            "name": "Trinidad And Tobago"
+        }
+    },
+    {
+        "pk": 226,
+        "model": "home.country",
+        "fields": {
+            "code": "TN",
+            "name": "Tunisia"
+        }
+    },
+    {
+        "pk": 227,
+        "model": "home.country",
+        "fields": {
+            "code": "TR",
+            "name": "Turkey"
+        }
+    },
+    {
+        "pk": 228,
+        "model": "home.country",
+        "fields": {
+            "code": "TM",
+            "name": "Turkmenistan"
+        }
+    },
+    {
+        "pk": 229,
+        "model": "home.country",
+        "fields": {
+            "code": "TC",
+            "name": "Turks And Caicos Islands"
+        }
+    },
+    {
+        "pk": 230,
+        "model": "home.country",
+        "fields": {
+            "code": "TV",
+            "name": "Tuvalu"
+        }
+    },
+    {
+        "pk": 231,
+        "model": "home.country",
+        "fields": {
+            "code": "UG",
+            "name": "Uganda"
+        }
+    },
+    {
+        "pk": 232,
+        "model": "home.country",
+        "fields": {
+            "code": "UA",
+            "name": "Ukraine"
+        }
+    },
+    {
+        "pk": 233,
+        "model": "home.country",
+        "fields": {
+            "code": "AE",
+            "name": "United Arab Emirates"
+        }
+    },
+    {
+        "pk": 234,
+        "model": "home.country",
+        "fields": {
+            "code": "GB",
+            "name": "United Kingdom"
+        }
+    },
+    {
+        "pk": 235,
+        "model": "home.country",
+        "fields": {
+            "code": "US",
+            "name": "United States"
+        }
+    },
+    {
+        "pk": 236,
+        "model": "home.country",
+        "fields": {
+            "code": "UM",
+            "name": "United States Minor Outlying Islands"
+        }
+    },
+    {
+        "pk": 237,
+        "model": "home.country",
+        "fields": {
+            "code": "UY",
+            "name": "Uruguay"
+        }
+    },
+    {
+        "pk": 238,
+        "model": "home.country",
+        "fields": {
+            "code": "UZ",
+            "name": "Uzbekistan"
+        }
+    },
+    {
+        "pk": 239,
+        "model": "home.country",
+        "fields": {
+            "code": "VU",
+            "name": "Vanuatu"
+        }
+    },
+    {
+        "pk": 240,
+        "model": "home.country",
+        "fields": {
+            "code": "VE",
+            "name": "Venezuela, Bolivarian Republic Of"
+        }
+    },
+    {
+        "pk": 241,
+        "model": "home.country",
+        "fields": {
+            "code": "VN",
+            "name": "Viet Nam"
+        }
+    },
+    {
+        "pk": 242,
+        "model": "home.country",
+        "fields": {
+            "code": "VG",
+            "name": "Virgin Islands, British"
+        }
+    },
+    {
+        "pk": 243,
+        "model": "home.country",
+        "fields": {
+            "code": "VI",
+            "name": "Virgin Islands, U.S."
+        }
+    },
+    {
+        "pk": 244,
+        "model": "home.country",
+        "fields": {
+            "code": "WF",
+            "name": "Wallis And Futuna"
+        }
+    },
+    {
+        "pk": 245,
+        "model": "home.country",
+        "fields": {
+            "code": "EH",
+            "name": "Western Sahara"
+        }
+    },
+    {
+        "pk": 246,
+        "model": "home.country",
+        "fields": {
+            "code": "YE",
+            "name": "Yemen"
+        }
+    },
+    {
+        "pk": 247,
+        "model": "home.country",
+        "fields": {
+            "code": "ZM",
+            "name": "Zambia"
+        }
+    },
+    {
+        "pk": 248,
+        "model": "home.country",
+        "fields": {
+            "code": "ZW",
+            "name": "Zimbabwe"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "home.city",
+        "fields": {
+            "country": 208,
+            "name": "Barcelona"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Auckland"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Whangarei"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Hamilton"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Napier"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Wellington"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Invercargill"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Dunedin"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Palmerston North"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " New Plymouth"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Nelson"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "home.city",
+        "fields": {
+            "country": 159,
+            "name": " Rotorua"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "home.venue",
+        "fields": {
+            "city": 1,
+            "name": "Bernabeu"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.venue",
+        "fields": {
+            "city": 1,
+            "name": "Old Trafford"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "home.venue",
+        "fields": {
+            "city": 1,
+            "name": "San Siro"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "home.venue",
+        "fields": {
+            "city": 1,
+            "name": "Nou Camp"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "home.venue",
+        "fields": {
+            "city": 1,
+            "name": "Aviva Stadium"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "home.venue",
+        "fields": {
+            "city": 1,
+            "name": "Terryland Park"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "home.venue",
+        "fields": {
+            "city": 2,
+            "name": "Eden Park"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "home.venue",
+        "fields": {
+            "city": 2,
+            "name": "North Harbour Stadium"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "home.venue",
+        "fields": {
+            "city": 3,
+            "name": "Northland Events Centre"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "home.venue",
+        "fields": {
+            "city": 4,
+            "name": "Waikato Stadium"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "home.venue",
+        "fields": {
+            "city": 5,
+            "name": "McLean Park"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "home.venue",
+        "fields": {
+            "city": 6,
+            "name": "Wellington Regional Stadium"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "home.venue",
+        "fields": {
+            "city": 7,
+            "name": "Rugby Park Stadium"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "home.venue",
+        "fields": {
+            "city": 8,
+            "name": "Forsyth Barr Stadium"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "home.venue",
+        "fields": {
+            "city": 9,
+            "name": "Arena Manawatu"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "home.venue",
+        "fields": {
+            "city": 10,
+            "name": "Stadium Taranaki"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "home.venue",
+        "fields": {
+            "city": 11,
+            "name": "Trafalgar Park"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "home.venue",
+        "fields": {
+            "city": 12,
+            "name": "Rotorua International Stadium"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Afghanistan"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "\u00c3\u2026Land Islands"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Albania"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Algeria"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "American Samoa"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Andorra"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Angola"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Anguilla"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Antarctica"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Antigua And Barbuda"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Argentina"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Armenia"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Aruba"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Australia"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Austria"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Azerbaijan"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bahamas"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bahrain"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bangladesh"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Barbados"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Belarus"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Belgium"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Belize"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Benin"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bermuda"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bhutan"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bolivia, Plurinational State Of"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bonaire, Sint Eustatius And Saba"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bosnia And Herzegovina"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Botswana"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bouvet Island"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Brazil"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "British Indian Ocean Territory"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Brunei Darussalam"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Bulgaria"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Burkina Faso"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Burundi"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cambodia"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cameroon"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Canada"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cape Verde"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cayman Islands"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Central African Republic"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Chad"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Chile"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "China"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Christmas Island"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cocos (Keeling) Islands"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Colombia"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Comoros"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Congo"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Congo, The Democratic Republic Of The"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cook Islands"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Costa Rica"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "C\u00c3\u201dTe D'Ivoire"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Croatia"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cuba"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cura\u00c3\u2021Ao"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Cyprus"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Czech Republic"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Denmark"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Djibouti"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Dominica"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Dominican Republic"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Ecuador"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Egypt"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "El Salvador"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Equatorial Guinea"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Eritrea"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Estonia"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Ethiopia"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Falkland Islands (Malvinas)"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Faroe Islands"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Fiji"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Finland"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "France"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "French Guiana"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "French Polynesia"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "French Southern Territories"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Gabon"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Gambia"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Georgia"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Germany"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Ghana"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Gibraltar"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Greece"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Greenland"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Grenada"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guadeloupe"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guam"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guatemala"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guernsey"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guinea"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guinea-Bissau"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Guyana"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Haiti"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Heard Island And Mcdonald Islands"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Holy See (Vatican City State)"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Honduras"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Hong Kong"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Hungary"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Iceland"
+        }
+    },
+    {
+        "pk": 104,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "India"
+        }
+    },
+    {
+        "pk": 105,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Indonesia"
+        }
+    },
+    {
+        "pk": 106,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Iran, Islamic Republic Of"
+        }
+    },
+    {
+        "pk": 107,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Iraq"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Ireland"
+        }
+    },
+    {
+        "pk": 109,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Isle Of Man"
+        }
+    },
+    {
+        "pk": 110,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Israel"
+        }
+    },
+    {
+        "pk": 111,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Italy"
+        }
+    },
+    {
+        "pk": 112,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Jamaica"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Japan"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Jersey"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Jordan"
+        }
+    },
+    {
+        "pk": 116,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Kazakhstan"
+        }
+    },
+    {
+        "pk": 117,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Kenya"
+        }
+    },
+    {
+        "pk": 118,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Kiribati"
+        }
+    },
+    {
+        "pk": 119,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Korea, Democratic People'S Republic Of"
+        }
+    },
+    {
+        "pk": 120,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Korea, Republic Of"
+        }
+    },
+    {
+        "pk": 121,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Kuwait"
+        }
+    },
+    {
+        "pk": 122,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Kyrgyzstan"
+        }
+    },
+    {
+        "pk": 123,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Lao People'S Democratic Republic"
+        }
+    },
+    {
+        "pk": 124,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Latvia"
+        }
+    },
+    {
+        "pk": 125,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Lebanon"
+        }
+    },
+    {
+        "pk": 126,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Lesotho"
+        }
+    },
+    {
+        "pk": 127,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Liberia"
+        }
+    },
+    {
+        "pk": 128,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Libyan Arab Jamahiriya"
+        }
+    },
+    {
+        "pk": 129,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Liechtenstein"
+        }
+    },
+    {
+        "pk": 130,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Lithuania"
+        }
+    },
+    {
+        "pk": 131,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Luxembourg"
+        }
+    },
+    {
+        "pk": 132,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Macao"
+        }
+    },
+    {
+        "pk": 133,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Macedonia, The Former Yugoslav Republic Of"
+        }
+    },
+    {
+        "pk": 134,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Madagascar"
+        }
+    },
+    {
+        "pk": 135,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Malawi"
+        }
+    },
+    {
+        "pk": 136,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Malaysia"
+        }
+    },
+    {
+        "pk": 137,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Maldives"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mali"
+        }
+    },
+    {
+        "pk": 139,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Malta"
+        }
+    },
+    {
+        "pk": 140,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Marshall Islands"
+        }
+    },
+    {
+        "pk": 141,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Martinique"
+        }
+    },
+    {
+        "pk": 142,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mauritania"
+        }
+    },
+    {
+        "pk": 143,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mauritius"
+        }
+    },
+    {
+        "pk": 144,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mayotte"
+        }
+    },
+    {
+        "pk": 145,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mexico"
+        }
+    },
+    {
+        "pk": 146,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Micronesia, Federated States Of"
+        }
+    },
+    {
+        "pk": 147,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Moldova, Republic Of"
+        }
+    },
+    {
+        "pk": 148,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Monaco"
+        }
+    },
+    {
+        "pk": 149,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mongolia"
+        }
+    },
+    {
+        "pk": 150,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Montenegro"
+        }
+    },
+    {
+        "pk": 151,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Montserrat"
+        }
+    },
+    {
+        "pk": 152,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Morocco"
+        }
+    },
+    {
+        "pk": 153,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Mozambique"
+        }
+    },
+    {
+        "pk": 154,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Myanmar"
+        }
+    },
+    {
+        "pk": 155,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Namibia"
+        }
+    },
+    {
+        "pk": 156,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Nauru"
+        }
+    },
+    {
+        "pk": 157,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Nepal"
+        }
+    },
+    {
+        "pk": 158,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Netherlands"
+        }
+    },
+    {
+        "pk": 159,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "New Caledonia"
+        }
+    },
+    {
+        "pk": 160,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "New Zealand"
+        }
+    },
+    {
+        "pk": 161,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Nicaragua"
+        }
+    },
+    {
+        "pk": 162,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Niger"
+        }
+    },
+    {
+        "pk": 163,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Nigeria"
+        }
+    },
+    {
+        "pk": 164,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Niue"
+        }
+    },
+    {
+        "pk": 165,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Norfolk Island"
+        }
+    },
+    {
+        "pk": 166,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Northern Mariana Islands"
+        }
+    },
+    {
+        "pk": 167,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Norway"
+        }
+    },
+    {
+        "pk": 168,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Oman"
+        }
+    },
+    {
+        "pk": 169,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Pakistan"
+        }
+    },
+    {
+        "pk": 170,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Palau"
+        }
+    },
+    {
+        "pk": 171,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Palestinian Territory, Occupied"
+        }
+    },
+    {
+        "pk": 172,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Panama"
+        }
+    },
+    {
+        "pk": 173,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Papua New Guinea"
+        }
+    },
+    {
+        "pk": 174,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Paraguay"
+        }
+    },
+    {
+        "pk": 175,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Peru"
+        }
+    },
+    {
+        "pk": 176,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Philippines"
+        }
+    },
+    {
+        "pk": 177,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Pitcairn"
+        }
+    },
+    {
+        "pk": 178,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Poland"
+        }
+    },
+    {
+        "pk": 179,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Portugal"
+        }
+    },
+    {
+        "pk": 180,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Puerto Rico"
+        }
+    },
+    {
+        "pk": 181,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Qatar"
+        }
+    },
+    {
+        "pk": 182,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "R\u00c3\u2030Union"
+        }
+    },
+    {
+        "pk": 183,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Romania"
+        }
+    },
+    {
+        "pk": 184,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Russian Federation"
+        }
+    },
+    {
+        "pk": 185,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Rwanda"
+        }
+    },
+    {
+        "pk": 186,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Barth\u00c3\u2030Lemy"
+        }
+    },
+    {
+        "pk": 187,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Helena, Ascension And Tristan Da Cunha"
+        }
+    },
+    {
+        "pk": 188,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Kitts And Nevis"
+        }
+    },
+    {
+        "pk": 189,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Lucia"
+        }
+    },
+    {
+        "pk": 190,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Martin (French Part)"
+        }
+    },
+    {
+        "pk": 191,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Pierre And Miquelon"
+        }
+    },
+    {
+        "pk": 192,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saint Vincent And The Grenadines"
+        }
+    },
+    {
+        "pk": 193,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Samoa"
+        }
+    },
+    {
+        "pk": 194,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "San Marino"
+        }
+    },
+    {
+        "pk": 195,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Sao Tome And Principe"
+        }
+    },
+    {
+        "pk": 196,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Saudi Arabia"
+        }
+    },
+    {
+        "pk": 197,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Senegal"
+        }
+    },
+    {
+        "pk": 198,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Serbia"
+        }
+    },
+    {
+        "pk": 199,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Seychelles"
+        }
+    },
+    {
+        "pk": 200,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Sierra Leone"
+        }
+    },
+    {
+        "pk": 201,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Singapore"
+        }
+    },
+    {
+        "pk": 202,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Sint Maarten (Dutch Part)"
+        }
+    },
+    {
+        "pk": 203,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Slovakia"
+        }
+    },
+    {
+        "pk": 204,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Slovenia"
+        }
+    },
+    {
+        "pk": 205,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Solomon Islands"
+        }
+    },
+    {
+        "pk": 206,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Somalia"
+        }
+    },
+    {
+        "pk": 207,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "South Africa"
+        }
+    },
+    {
+        "pk": 208,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "South Georgia And The South Sandwich Islands"
+        }
+    },
+    {
+        "pk": 209,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Spain"
+        }
+    },
+    {
+        "pk": 210,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Sri Lanka"
+        }
+    },
+    {
+        "pk": 211,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Sudan"
+        }
+    },
+    {
+        "pk": 212,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Suriname"
+        }
+    },
+    {
+        "pk": 213,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Svalbard And Jan Mayen"
+        }
+    },
+    {
+        "pk": 214,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Swaziland"
+        }
+    },
+    {
+        "pk": 215,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Sweden"
+        }
+    },
+    {
+        "pk": 216,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Switzerland"
+        }
+    },
+    {
+        "pk": 217,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Syrian Arab Republic"
+        }
+    },
+    {
+        "pk": 218,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Taiwan, Province Of China"
+        }
+    },
+    {
+        "pk": 219,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Tajikistan"
+        }
+    },
+    {
+        "pk": 220,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Tanzania, United Republic Of"
+        }
+    },
+    {
+        "pk": 221,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Thailand"
+        }
+    },
+    {
+        "pk": 222,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Timor-Leste"
+        }
+    },
+    {
+        "pk": 223,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Togo"
+        }
+    },
+    {
+        "pk": 224,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Tokelau"
+        }
+    },
+    {
+        "pk": 225,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Tonga"
+        }
+    },
+    {
+        "pk": 226,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Trinidad And Tobago"
+        }
+    },
+    {
+        "pk": 227,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Tunisia"
+        }
+    },
+    {
+        "pk": 228,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Turkey"
+        }
+    },
+    {
+        "pk": 229,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Turkmenistan"
+        }
+    },
+    {
+        "pk": 230,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Turks And Caicos Islands"
+        }
+    },
+    {
+        "pk": 231,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Tuvalu"
+        }
+    },
+    {
+        "pk": 232,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Uganda"
+        }
+    },
+    {
+        "pk": 233,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Ukraine"
+        }
+    },
+    {
+        "pk": 234,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "United Arab Emirates"
+        }
+    },
+    {
+        "pk": 235,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "United Kingdom"
+        }
+    },
+    {
+        "pk": 236,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "United States"
+        }
+    },
+    {
+        "pk": 237,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "United States Minor Outlying Islands"
+        }
+    },
+    {
+        "pk": 238,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Uruguay"
+        }
+    },
+    {
+        "pk": 239,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Uzbekistan"
+        }
+    },
+    {
+        "pk": 240,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Vanuatu"
+        }
+    },
+    {
+        "pk": 241,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Venezuela, Bolivarian Republic Of"
+        }
+    },
+    {
+        "pk": 242,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Viet Nam"
+        }
+    },
+    {
+        "pk": 243,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Virgin Islands, British"
+        }
+    },
+    {
+        "pk": 244,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Virgin Islands, U.S."
+        }
+    },
+    {
+        "pk": 245,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Wallis And Futuna"
+        }
+    },
+    {
+        "pk": 246,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Western Sahara"
+        }
+    },
+    {
+        "pk": 247,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Yemen"
+        }
+    },
+    {
+        "pk": 248,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Zambia"
+        }
+    },
+    {
+        "pk": 249,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 1,
+            "home_city": null,
+            "name": "Zimbabwe"
+        }
+    },
+    {
+        "pk": 250,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Afghanistan"
+        }
+    },
+    {
+        "pk": 251,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "\u00c3\u0192\u00e2\u20ac\u00a6Land Islands"
+        }
+    },
+    {
+        "pk": 252,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Albania"
+        }
+    },
+    {
+        "pk": 253,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Algeria"
+        }
+    },
+    {
+        "pk": 254,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "American Samoa"
+        }
+    },
+    {
+        "pk": 255,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Andorra"
+        }
+    },
+    {
+        "pk": 256,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Angola"
+        }
+    },
+    {
+        "pk": 257,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Anguilla"
+        }
+    },
+    {
+        "pk": 258,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Antarctica"
+        }
+    },
+    {
+        "pk": 259,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Antigua And Barbuda"
+        }
+    },
+    {
+        "pk": 260,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Argentina"
+        }
+    },
+    {
+        "pk": 261,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Armenia"
+        }
+    },
+    {
+        "pk": 262,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Aruba"
+        }
+    },
+    {
+        "pk": 263,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Australia"
+        }
+    },
+    {
+        "pk": 264,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Austria"
+        }
+    },
+    {
+        "pk": 265,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Azerbaijan"
+        }
+    },
+    {
+        "pk": 266,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bahamas"
+        }
+    },
+    {
+        "pk": 267,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bahrain"
+        }
+    },
+    {
+        "pk": 268,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bangladesh"
+        }
+    },
+    {
+        "pk": 269,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Barbados"
+        }
+    },
+    {
+        "pk": 270,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Belarus"
+        }
+    },
+    {
+        "pk": 271,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Belgium"
+        }
+    },
+    {
+        "pk": 272,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Belize"
+        }
+    },
+    {
+        "pk": 273,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Benin"
+        }
+    },
+    {
+        "pk": 274,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bermuda"
+        }
+    },
+    {
+        "pk": 275,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bhutan"
+        }
+    },
+    {
+        "pk": 276,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bolivia, Plurinational State Of"
+        }
+    },
+    {
+        "pk": 277,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bonaire, Sint Eustatius And Saba"
+        }
+    },
+    {
+        "pk": 278,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bosnia And Herzegovina"
+        }
+    },
+    {
+        "pk": 279,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Botswana"
+        }
+    },
+    {
+        "pk": 280,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bouvet Island"
+        }
+    },
+    {
+        "pk": 281,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Brazil"
+        }
+    },
+    {
+        "pk": 282,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "British Indian Ocean Territory"
+        }
+    },
+    {
+        "pk": 283,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Brunei Darussalam"
+        }
+    },
+    {
+        "pk": 284,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Bulgaria"
+        }
+    },
+    {
+        "pk": 285,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Burkina Faso"
+        }
+    },
+    {
+        "pk": 286,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Burundi"
+        }
+    },
+    {
+        "pk": 287,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cambodia"
+        }
+    },
+    {
+        "pk": 288,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cameroon"
+        }
+    },
+    {
+        "pk": 289,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Canada"
+        }
+    },
+    {
+        "pk": 290,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cape Verde"
+        }
+    },
+    {
+        "pk": 291,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cayman Islands"
+        }
+    },
+    {
+        "pk": 292,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Central African Republic"
+        }
+    },
+    {
+        "pk": 293,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Chad"
+        }
+    },
+    {
+        "pk": 294,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Chile"
+        }
+    },
+    {
+        "pk": 295,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "China"
+        }
+    },
+    {
+        "pk": 296,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Christmas Island"
+        }
+    },
+    {
+        "pk": 297,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cocos (Keeling) Islands"
+        }
+    },
+    {
+        "pk": 298,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Colombia"
+        }
+    },
+    {
+        "pk": 299,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Comoros"
+        }
+    },
+    {
+        "pk": 300,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Congo"
+        }
+    },
+    {
+        "pk": 301,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Congo, The Democratic Republic Of The"
+        }
+    },
+    {
+        "pk": 302,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cook Islands"
+        }
+    },
+    {
+        "pk": 303,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Costa Rica"
+        }
+    },
+    {
+        "pk": 304,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "C\u00c3\u0192\u00e2\u20ac\u009dTe D'Ivoire"
+        }
+    },
+    {
+        "pk": 305,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Croatia"
+        }
+    },
+    {
+        "pk": 306,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cuba"
+        }
+    },
+    {
+        "pk": 307,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cura\u00c3\u0192\u00e2\u20ac\u00a1Ao"
+        }
+    },
+    {
+        "pk": 308,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Cyprus"
+        }
+    },
+    {
+        "pk": 309,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Czech Republic"
+        }
+    },
+    {
+        "pk": 310,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Denmark"
+        }
+    },
+    {
+        "pk": 311,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Djibouti"
+        }
+    },
+    {
+        "pk": 312,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Dominica"
+        }
+    },
+    {
+        "pk": 313,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Dominican Republic"
+        }
+    },
+    {
+        "pk": 314,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Ecuador"
+        }
+    },
+    {
+        "pk": 315,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Egypt"
+        }
+    },
+    {
+        "pk": 316,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "El Salvador"
+        }
+    },
+    {
+        "pk": 317,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Equatorial Guinea"
+        }
+    },
+    {
+        "pk": 318,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Eritrea"
+        }
+    },
+    {
+        "pk": 319,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Estonia"
+        }
+    },
+    {
+        "pk": 320,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Ethiopia"
+        }
+    },
+    {
+        "pk": 321,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Falkland Islands (Malvinas)"
+        }
+    },
+    {
+        "pk": 322,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Faroe Islands"
+        }
+    },
+    {
+        "pk": 323,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Fiji"
+        }
+    },
+    {
+        "pk": 324,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Finland"
+        }
+    },
+    {
+        "pk": 325,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "France"
+        }
+    },
+    {
+        "pk": 326,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "French Guiana"
+        }
+    },
+    {
+        "pk": 327,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "French Polynesia"
+        }
+    },
+    {
+        "pk": 328,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "French Southern Territories"
+        }
+    },
+    {
+        "pk": 329,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Gabon"
+        }
+    },
+    {
+        "pk": 330,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Gambia"
+        }
+    },
+    {
+        "pk": 331,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Georgia"
+        }
+    },
+    {
+        "pk": 332,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Germany"
+        }
+    },
+    {
+        "pk": 333,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Ghana"
+        }
+    },
+    {
+        "pk": 334,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Gibraltar"
+        }
+    },
+    {
+        "pk": 335,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Greece"
+        }
+    },
+    {
+        "pk": 336,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Greenland"
+        }
+    },
+    {
+        "pk": 337,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Grenada"
+        }
+    },
+    {
+        "pk": 338,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guadeloupe"
+        }
+    },
+    {
+        "pk": 339,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guam"
+        }
+    },
+    {
+        "pk": 340,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guatemala"
+        }
+    },
+    {
+        "pk": 341,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guernsey"
+        }
+    },
+    {
+        "pk": 342,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guinea"
+        }
+    },
+    {
+        "pk": 343,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guinea-Bissau"
+        }
+    },
+    {
+        "pk": 344,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Guyana"
+        }
+    },
+    {
+        "pk": 345,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Haiti"
+        }
+    },
+    {
+        "pk": 346,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Heard Island And Mcdonald Islands"
+        }
+    },
+    {
+        "pk": 347,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Holy See (Vatican City State)"
+        }
+    },
+    {
+        "pk": 348,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Honduras"
+        }
+    },
+    {
+        "pk": 349,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Hong Kong"
+        }
+    },
+    {
+        "pk": 350,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Hungary"
+        }
+    },
+    {
+        "pk": 351,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Iceland"
+        }
+    },
+    {
+        "pk": 352,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "India"
+        }
+    },
+    {
+        "pk": 353,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Indonesia"
+        }
+    },
+    {
+        "pk": 354,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Iran, Islamic Republic Of"
+        }
+    },
+    {
+        "pk": 355,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Iraq"
+        }
+    },
+    {
+        "pk": 356,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Ireland"
+        }
+    },
+    {
+        "pk": 357,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Isle Of Man"
+        }
+    },
+    {
+        "pk": 358,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Israel"
+        }
+    },
+    {
+        "pk": 359,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Italy"
+        }
+    },
+    {
+        "pk": 360,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Jamaica"
+        }
+    },
+    {
+        "pk": 361,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Japan"
+        }
+    },
+    {
+        "pk": 362,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Jersey"
+        }
+    },
+    {
+        "pk": 363,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Jordan"
+        }
+    },
+    {
+        "pk": 364,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Kazakhstan"
+        }
+    },
+    {
+        "pk": 365,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Kenya"
+        }
+    },
+    {
+        "pk": 366,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Kiribati"
+        }
+    },
+    {
+        "pk": 367,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Korea, Democratic People'S Republic Of"
+        }
+    },
+    {
+        "pk": 368,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Korea, Republic Of"
+        }
+    },
+    {
+        "pk": 369,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Kuwait"
+        }
+    },
+    {
+        "pk": 370,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Kyrgyzstan"
+        }
+    },
+    {
+        "pk": 371,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Lao People'S Democratic Republic"
+        }
+    },
+    {
+        "pk": 372,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Latvia"
+        }
+    },
+    {
+        "pk": 373,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Lebanon"
+        }
+    },
+    {
+        "pk": 374,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Lesotho"
+        }
+    },
+    {
+        "pk": 375,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Liberia"
+        }
+    },
+    {
+        "pk": 376,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Libyan Arab Jamahiriya"
+        }
+    },
+    {
+        "pk": 377,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Liechtenstein"
+        }
+    },
+    {
+        "pk": 378,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Lithuania"
+        }
+    },
+    {
+        "pk": 379,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Luxembourg"
+        }
+    },
+    {
+        "pk": 380,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Macao"
+        }
+    },
+    {
+        "pk": 381,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Macedonia, The Former Yugoslav Republic Of"
+        }
+    },
+    {
+        "pk": 382,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Madagascar"
+        }
+    },
+    {
+        "pk": 383,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Malawi"
+        }
+    },
+    {
+        "pk": 384,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Malaysia"
+        }
+    },
+    {
+        "pk": 385,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Maldives"
+        }
+    },
+    {
+        "pk": 386,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mali"
+        }
+    },
+    {
+        "pk": 387,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Malta"
+        }
+    },
+    {
+        "pk": 388,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Marshall Islands"
+        }
+    },
+    {
+        "pk": 389,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Martinique"
+        }
+    },
+    {
+        "pk": 390,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mauritania"
+        }
+    },
+    {
+        "pk": 391,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mauritius"
+        }
+    },
+    {
+        "pk": 392,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mayotte"
+        }
+    },
+    {
+        "pk": 393,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mexico"
+        }
+    },
+    {
+        "pk": 394,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Micronesia, Federated States Of"
+        }
+    },
+    {
+        "pk": 395,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Moldova, Republic Of"
+        }
+    },
+    {
+        "pk": 396,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Monaco"
+        }
+    },
+    {
+        "pk": 397,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mongolia"
+        }
+    },
+    {
+        "pk": 398,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Montenegro"
+        }
+    },
+    {
+        "pk": 399,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Montserrat"
+        }
+    },
+    {
+        "pk": 400,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Morocco"
+        }
+    },
+    {
+        "pk": 401,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Mozambique"
+        }
+    },
+    {
+        "pk": 402,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Myanmar"
+        }
+    },
+    {
+        "pk": 403,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Namibia"
+        }
+    },
+    {
+        "pk": 404,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Nauru"
+        }
+    },
+    {
+        "pk": 405,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Nepal"
+        }
+    },
+    {
+        "pk": 406,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Netherlands"
+        }
+    },
+    {
+        "pk": 407,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "New Caledonia"
+        }
+    },
+    {
+        "pk": 408,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "New Zealand"
+        }
+    },
+    {
+        "pk": 409,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Nicaragua"
+        }
+    },
+    {
+        "pk": 410,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Niger"
+        }
+    },
+    {
+        "pk": 411,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Nigeria"
+        }
+    },
+    {
+        "pk": 412,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Niue"
+        }
+    },
+    {
+        "pk": 413,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Norfolk Island"
+        }
+    },
+    {
+        "pk": 414,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Northern Mariana Islands"
+        }
+    },
+    {
+        "pk": 415,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Norway"
+        }
+    },
+    {
+        "pk": 416,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Oman"
+        }
+    },
+    {
+        "pk": 417,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Pakistan"
+        }
+    },
+    {
+        "pk": 418,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Palau"
+        }
+    },
+    {
+        "pk": 419,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Palestinian Territory, Occupied"
+        }
+    },
+    {
+        "pk": 420,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Panama"
+        }
+    },
+    {
+        "pk": 421,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Papua New Guinea"
+        }
+    },
+    {
+        "pk": 422,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Paraguay"
+        }
+    },
+    {
+        "pk": 423,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Peru"
+        }
+    },
+    {
+        "pk": 424,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Philippines"
+        }
+    },
+    {
+        "pk": 425,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Pitcairn"
+        }
+    },
+    {
+        "pk": 426,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Poland"
+        }
+    },
+    {
+        "pk": 427,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Portugal"
+        }
+    },
+    {
+        "pk": 428,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Puerto Rico"
+        }
+    },
+    {
+        "pk": 429,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Qatar"
+        }
+    },
+    {
+        "pk": 430,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "R\u00c3\u0192\u00e2\u20ac\u00b0Union"
+        }
+    },
+    {
+        "pk": 431,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Romania"
+        }
+    },
+    {
+        "pk": 432,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Russian Federation"
+        }
+    },
+    {
+        "pk": 433,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Rwanda"
+        }
+    },
+    {
+        "pk": 434,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Barth\u00c3\u0192\u00e2\u20ac\u00b0Lemy"
+        }
+    },
+    {
+        "pk": 435,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Helena, Ascension And Tristan Da Cunha"
+        }
+    },
+    {
+        "pk": 436,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Kitts And Nevis"
+        }
+    },
+    {
+        "pk": 437,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Lucia"
+        }
+    },
+    {
+        "pk": 438,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Martin (French Part)"
+        }
+    },
+    {
+        "pk": 439,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Pierre And Miquelon"
+        }
+    },
+    {
+        "pk": 440,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saint Vincent And The Grenadines"
+        }
+    },
+    {
+        "pk": 441,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Samoa"
+        }
+    },
+    {
+        "pk": 442,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "San Marino"
+        }
+    },
+    {
+        "pk": 443,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Sao Tome And Principe"
+        }
+    },
+    {
+        "pk": 444,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Saudi Arabia"
+        }
+    },
+    {
+        "pk": 445,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Senegal"
+        }
+    },
+    {
+        "pk": 446,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Serbia"
+        }
+    },
+    {
+        "pk": 447,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Seychelles"
+        }
+    },
+    {
+        "pk": 448,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Sierra Leone"
+        }
+    },
+    {
+        "pk": 449,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Singapore"
+        }
+    },
+    {
+        "pk": 450,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Sint Maarten (Dutch Part)"
+        }
+    },
+    {
+        "pk": 451,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Slovakia"
+        }
+    },
+    {
+        "pk": 452,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Slovenia"
+        }
+    },
+    {
+        "pk": 453,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Solomon Islands"
+        }
+    },
+    {
+        "pk": 454,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Somalia"
+        }
+    },
+    {
+        "pk": 455,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "South Africa"
+        }
+    },
+    {
+        "pk": 456,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "South Georgia And The South Sandwich Islands"
+        }
+    },
+    {
+        "pk": 457,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Spain"
+        }
+    },
+    {
+        "pk": 458,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Sri Lanka"
+        }
+    },
+    {
+        "pk": 459,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Sudan"
+        }
+    },
+    {
+        "pk": 460,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Suriname"
+        }
+    },
+    {
+        "pk": 461,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Svalbard And Jan Mayen"
+        }
+    },
+    {
+        "pk": 462,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Swaziland"
+        }
+    },
+    {
+        "pk": 463,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Sweden"
+        }
+    },
+    {
+        "pk": 464,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Switzerland"
+        }
+    },
+    {
+        "pk": 465,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Syrian Arab Republic"
+        }
+    },
+    {
+        "pk": 466,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Taiwan, Province Of China"
+        }
+    },
+    {
+        "pk": 467,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Tajikistan"
+        }
+    },
+    {
+        "pk": 468,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Tanzania, United Republic Of"
+        }
+    },
+    {
+        "pk": 469,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Thailand"
+        }
+    },
+    {
+        "pk": 470,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Timor-Leste"
+        }
+    },
+    {
+        "pk": 471,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Togo"
+        }
+    },
+    {
+        "pk": 472,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Tokelau"
+        }
+    },
+    {
+        "pk": 473,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Tonga"
+        }
+    },
+    {
+        "pk": 474,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Trinidad And Tobago"
+        }
+    },
+    {
+        "pk": 475,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Tunisia"
+        }
+    },
+    {
+        "pk": 476,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Turkey"
+        }
+    },
+    {
+        "pk": 477,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Turkmenistan"
+        }
+    },
+    {
+        "pk": 478,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Turks And Caicos Islands"
+        }
+    },
+    {
+        "pk": 479,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Tuvalu"
+        }
+    },
+    {
+        "pk": 480,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Uganda"
+        }
+    },
+    {
+        "pk": 481,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Ukraine"
+        }
+    },
+    {
+        "pk": 482,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "United Arab Emirates"
+        }
+    },
+    {
+        "pk": 483,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "United Kingdom"
+        }
+    },
+    {
+        "pk": 484,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "United States"
+        }
+    },
+    {
+        "pk": 485,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "United States Minor Outlying Islands"
+        }
+    },
+    {
+        "pk": 486,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Uruguay"
+        }
+    },
+    {
+        "pk": 487,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Uzbekistan"
+        }
+    },
+    {
+        "pk": 488,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Vanuatu"
+        }
+    },
+    {
+        "pk": 489,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Venezuela, Bolivarian Republic Of"
+        }
+    },
+    {
+        "pk": 490,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Viet Nam"
+        }
+    },
+    {
+        "pk": 491,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Virgin Islands, British"
+        }
+    },
+    {
+        "pk": 492,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Virgin Islands, U.S."
+        }
+    },
+    {
+        "pk": 493,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Wallis And Futuna"
+        }
+    },
+    {
+        "pk": 494,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Western Sahara"
+        }
+    },
+    {
+        "pk": 495,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Yemen"
+        }
+    },
+    {
+        "pk": 496,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Zambia"
+        }
+    },
+    {
+        "pk": 497,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Zimbabwe"
+        }
+    },
+    {
+        "pk": 498,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Scotland"
+        }
+    },
+    {
+        "pk": 499,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "England"
+        }
+    },
+    {
+        "pk": 500,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Russia"
+        }
+    },
+    {
+        "pk": 501,
+        "model": "home.team",
+        "fields": {
+            "is_international": true,
+            "sport": 2,
+            "home_city": null,
+            "name": "Wales"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "home.fixturetype",
+        "fields": {
+            "name": "Group",
+            "correct_draw_points": 3,
+            "incorrect_draw_points": 0,
+            "incorrect_win_points": 0,
+            "correct_win_points": 3,
+            "semicorrect_win_points": 1,
+            "is_drawable":true,
+            "sport":1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.fixturetype",
+        "fields": {
+            "name": "1st Round",
+            "correct_draw_points": 0,
+            "incorrect_draw_points": 0,
+            "incorrect_win_points": 0,
+            "correct_win_points": 3,
+            "semicorrect_win_points": 0,
+            "is_drawable":true,
+            "sport":1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "home.fixturetype",
+        "fields": {
+            "name": "Quarter Final",
+            "correct_draw_points": 0,
+            "incorrect_draw_points": 0,
+            "incorrect_win_points": 0,
+            "correct_win_points": 6,
+            "semicorrect_win_points": 0,
+            "is_drawable":true,
+            "sport":1
+        }
+    },
+    {
+        "pk": 4,
+        "model": "home.fixturetype",
+        "fields": {
+            "name": "Semi Final",
+            "correct_draw_points": 0,
+            "incorrect_draw_points": 0,
+            "incorrect_win_points": 0,
+            "correct_win_points": 9,
+            "semicorrect_win_points": 0,
+            "is_drawable":true,
+            "sport":1
+        }
+    },
+    {
+        "pk": 5,
+        "model": "home.fixturetype",
+        "fields": {
+            "name": "Final",
+            "correct_draw_points": 0,
+            "incorrect_draw_points": 0,
+            "incorrect_win_points": 0,
+            "correct_win_points": 12,
+            "semicorrect_win_points": 0,
+            "is_drawable":true,
+            "sport":1
+        }
+    },
+    {
+        "pk": 6,
+        "model": "home.fixturetype",
+        "fields": {
+            "name": "3rd Place Playoff",
+            "correct_draw_points": 0,
+            "incorrect_draw_points": 0,
+            "incorrect_win_points": 0,
+            "correct_win_points": 9,
+            "semicorrect_win_points": 0,
+            "is_drawable":true,
+            "sport":1
+        }
+    },
+    {
+        "pk": 1,
+        "model": "home.tournament",
+        "fields": {
+            "sport": 1,
+            "begin_date": "2008-06-07 00:00:00",
+            "name": "Euro 2008",
+            "end_date": "2008-06-29 00:00:00"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.tournament",
+        "fields": {
+            "sport": 2,
+            "begin_date": "2011-09-09 00:00:00",
+            "name": "Rugby World Cup 2011",
+            "end_date": "2011-10-23 00:00:00"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "home.resulttype",
+        "fields": {
+            "name": "Team 1 Win"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "home.resulttype",
+        "fields": {
+            "name": "Team 2 Win"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "home.resulttype",
+        "fields": {
+            "name": "Draw"
+        }
+    }
+]

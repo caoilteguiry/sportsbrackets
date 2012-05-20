@@ -1,0 +1,12 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+<h1><a href="/sports/">{% trans "Sports"%}</a></h1>
+<table width="100%">
+{% for sport in sports %}
+  <tr class="{% cycle 'odd' 'even'%}">  
+    <td class="tablecell"><a href="/sports/{{sport.id}}">{{sport.name}}</a></td>
+  </tr>
+{% endfor %}
+</table>
+{% endblock %}

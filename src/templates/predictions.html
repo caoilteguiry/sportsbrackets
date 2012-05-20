@@ -1,0 +1,9 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+<h1>{% trans "Predictions for " %}{{user}}</h1>
+{% for prediction in predictions %}
+<div>{{prediction}}</div>
+{% endfor %}
+
+{% endblock %}

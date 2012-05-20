@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+  <div>
+  {% trans "Thanks for registering. You may now login" %}
+  </div>
+  <div>
+	  <a href="/login">{% trans "Login" %}</a>
+  </div>
+{% endblock %}

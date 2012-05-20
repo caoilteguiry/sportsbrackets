@@ -1,0 +1,54 @@
+{% extends "base_auth.html" %}
+{% load i18n %}
+{% block content %}
+
+<div class="container container_12">
+  <div class="grid_4">
+  	<div class="widget">
+	    <h2><a style="color:white" href="/sports">{% trans "Sports" %}</a></h2>
+	    <div id="content">
+      {% for sport in sports %}
+	      <div><a href="/sports/{{sport.id}}">{{sport}}</a></div>
+	    {% endfor %}
+      </div>
+		</div>
+  </div>
+  <div class="grid_4">
+    <div class="widget">
+			<h2><a style="color:white" href="/tournaments">{% trans "Tournaments" %}</a></h2>
+			<div id="content">
+	      {% for tournament in tournaments %}
+	      <div><a href="/tournaments/{{tournament.id}}/fixtures/">{{tournament}}</a></div>
+	      {% endfor %}    
+	    </div>    
+    </div>
+  </div>
+  <div class="grid_4">
+    <div class="widget">
+      <h2><a style="color:white" href="/groups">{% trans "Groups" %}</a></h2>
+      <div id="content">
+    
+      </div>    
+    </div>
+  </div>	
+</div>
+
+<!--
+{% if sports %}
+<h1><a href="/sports/">Sports</a></h1>
+{% for sport in sports %}
+  <div>
+    <a href="/sports/{{sport.id}}">{{sport.name}}</a>
+	</div>
+{% endfor %}
+{% endif %}
+
+{% if groups %}
+<h2>My Groups</h2>
+{% for group in groups %}
+<a href="">{{group.name}}</a>
+{% endfor %}
+{% endif %} -->
+ 
+
+{% endblock %}
