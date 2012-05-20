@@ -6,6 +6,12 @@ from django.conf import settings
 from django.core.mail import EmailMessage
 from django.template import RequestContext
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import authenticate
+from django.contrib.auth import login as login_auth # to avoid NS clash with login view below
+from django.contrib import messages
+
+from django.http import HttpResponseRedirect
+
 
 import logging
 logger = logging.getLogger("debugger")
@@ -34,7 +40,13 @@ def register(request):
                                      to=[admin[1] for admin in settings.ADMINS], 
                                      headers={"Reply-To":settings.NOREPLY_EMAIL})
         email_message.send()
-        return redirect("/register_success")
+
+
+        messages.info(request, "Thanks for registering.")
+        new_user = authenticate(username=form.cleaned_data['username'],
+                                password=form.cleaned_data['password1'])
+        login_auth(request, new_user)
+        return HttpResponseRedirect("/")
     
     c = {"form":form}
     c.update(csrf(request))
