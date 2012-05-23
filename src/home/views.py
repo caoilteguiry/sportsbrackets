@@ -3,6 +3,9 @@
 
 __author__ = "Caoilte Guiry"
 
+import datetime
+import logging
+
 from django.shortcuts import render_to_response
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
@@ -13,18 +16,16 @@ from django.contrib.auth.models import User
 from django.db.models import Q
 from django.utils.translation import ugettext as _
 from django.template import RequestContext
+
 from models import ResultType
 from models import Tournament
 from models import Fixture
 from models import FixtureType
 from models import Prediction
 from models import Sport
-import datetime
-import logging
-
 #from custom_decorators import timer
-logger = logging.getLogger("debugger")
 
+logger = logging.getLogger("debugger")
 
 __author__ = "Caoilte Guiry"
 
@@ -207,7 +208,9 @@ def view_table(request, tournament_id):
         fixtures_and_predictions = Fixture.objects.raw("SELECT f.id, f.fixture_type_id, p.result_id as prediction_id, f.result_id as result_id "
                                                         "FROM predictions AS p LEFT JOIN fixtures AS f ON p.fixture_id=f.id "
                                                         "WHERE f.tournament_id=%s AND user_id=%s AND f.result_id IS NOT NULL", (tournament_id, user.id))
-        
+        if not list(fixtures_and_predictions):
+            continue 
+
         # Initialise the user with zero points
         uap = {
           "user":user, 
