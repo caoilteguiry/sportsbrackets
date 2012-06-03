@@ -158,6 +158,6 @@ LOGIN_URL = "/login"
 
 
 # Unconventional django settings:
-SITE_NAME = "Sports Ladders"
+SITE_NAME = "Sports Brackets"
 
 from settings_local import *
