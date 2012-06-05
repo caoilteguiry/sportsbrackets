@@ -92,8 +92,8 @@ div.field_error input {
 input[type="submit"]
 {
     border: none;
-    background: url('/static/css/images/button.png') no-repeat top left;
-    padding: 2px 20px 20px 20px;
+/*    background: url('/static/css/images/button.png') no-repeat top left;*/
+/*    padding: 2px 20px 20px 20px; */
 }
 
 

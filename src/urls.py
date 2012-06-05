@@ -4,7 +4,7 @@
 __author__ = "Caoilte Guiry"
 
 from django.conf.urls.defaults import patterns, include, url
-from django.contrib.auth.views import login, logout
+from django.contrib.auth.views import login, logout, password_reset
 
 # Enable the admin:
 from django.contrib import admin
@@ -21,6 +21,15 @@ urlpatterns = patterns('',
     url('^register_success/$', 'user_profile.views.register_success'),
     url('^login/$', login, {'template_name':"login.html"}),
     url('^logout/$', logout, {'template_name':"logout.html"}),
+
+    url(r'^accounts/password/reset/$', 'django.contrib.auth.views.password_reset', 
+        {'post_reset_redirect' : '/accounts/password/reset/done/', "template_name":"password_reset_form.html"}),
+    url(r'^accounts/password/reset/done/$', 'django.contrib.auth.views.password_reset_done', 
+        {"template_name":"password_reset_done.html"}),
+    url(r'^accounts/password/reset/(?P<uidb36>[0-9A-Za-z]+)-(?P<token>.+)/$', 'django.contrib.auth.views.password_reset_confirm', 
+        {'post_reset_redirect' : '/accounts/password/done/', 'template_name': 'password_reset_confirm.html'}),
+    url(r'^accounts/password/done/$', 'django.contrib.auth.views.password_reset_complete', {"template_name": "password_reset_complete.html"}),
+
 
     url('^my_profile/$', 'user_profile.views.my_profile'),
 
