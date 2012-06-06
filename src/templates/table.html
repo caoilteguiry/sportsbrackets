@@ -1,5 +1,9 @@
 {% extends "base_auth.html" %}
 {% load i18n %}
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="/static/css/tablesorter.css"></link>
+{% endblock %}
+
 {% block content %}
 <h1><a href="/tournaments">Tournaments</a> > {{ tournament }}</h1>
 
@@ -15,22 +19,24 @@
 </span>
 
 
-<table width="100%">
+<table id="league" style="width:100%" class="tablesorter">
+  <thead>
   <tr>
-    <td class="header">{% trans "Pos" %} </td>
-    <td class="header">{% trans "Name" %}</td>
-    <td title="{% trans "Games Played" %}" class="header">P</td>
-    <td title="{% trans "Correct Win Guess - " %}" class="header">CW </td>
-    <td title="{% trans "Semi-correct Win Guess - " %}" class="header">SW </td>
-    <td title="{% trans "Incorrect Wins - " %}" class="header">IW </td>
-    <td title="{% trans "Correct Draw Guess - " %}" class="header">CD </td>
-    <td title="{% trans "Incorrect Draw Guess - " %}" class="header">ID </td>  {# TODO: add tooltips (e.g. '3 points') #}
-    <td class="header">Pts </td>
-		
+    <th class="header">{% trans "Pos" %} </td>
+    <th class="header">{% trans "Name" %}</td>
+    <th title="{% trans "Games Played" %}" class="header">P</td>
+    <th title="{% trans "Correct Win Guess - " %}" class="header">CW </td>
+    <th title="{% trans "Semi-correct Win Guess - " %}" class="header">SW </td>
+    <th title="{% trans "Incorrect Wins - " %}" class="header">IW </td>
+    <th title="{% trans "Correct Draw Guess - " %}" class="header">CD </td>
+    <th title="{% trans "Incorrect Draw Guess - " %}" class="header">ID </td>  {# TODO: add tooltips (e.g. '3 points') #}
+    <th class="header">Pts </td>
   </tr>
+  </thead>
+  <tbody>
 {% for uap in users_and_points %}
   <tr class="{% cycle 'odd' 'even'%}{% if not uap.user.get_profile.share_predictions %}_disabled{% endif %}">
-  	<td class="tablecell">{{forloop.counter}}</td>
+    <td class="tablecell">{{forloop.counter}}</td>
     <td title="{{uap.user.first_name}} {{uap.user.last_name}}" class="tablecell">
       {% if uap.user.get_profile.share_predictions %}
       <a href="/tournaments/{{tournament_id}}/predictions/{{uap.user.id}}">{{uap.user}}</a>
@@ -38,15 +44,26 @@
       {{uap.user}}  
       {% endif %}
     </td>
-		<td class="tablecell">{{uap.played}}</td>
-		<td class="tablecell">{{uap.correct_wins}}</td>
-		<td class="tablecell">{{uap.semicorrect_wins}}</td>
-		<td class="tablecell">{{uap.incorrect_wins}}</td>
-		<td class="tablecell">{{uap.correct_draws}}</td>
-		<td class="tablecell">{{uap.incorrect_draws}}</td>
-		<td class="tablecell">{{uap.points}}</td>
-	</tr>
+        <td class="tablecell">{{uap.played}}</td>
+        <td class="tablecell">{{uap.correct_wins}}</td>
+        <td class="tablecell">{{uap.semicorrect_wins}}</td>
+        <td class="tablecell">{{uap.incorrect_wins}}</td>
+        <td class="tablecell">{{uap.correct_draws}}</td>
+        <td class="tablecell">{{uap.incorrect_draws}}</td>
+        <td class="tablecell">{{uap.points}}</td>
+    </tr>
 {% endfor %}
+    </tbody>
 </table>
 
+{% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript" src="/static/javascript/lib/jquery.tablesorter.min.js"></script> 
+<script>
+$(function()
+{
+    $('table#league').tablesorter();
+});
+</script>
 {% endblock %}
