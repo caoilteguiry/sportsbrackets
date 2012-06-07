@@ -103,19 +103,18 @@ table
 }
 
 
-tr.odd, tr.odd_disabled
+tr:nth-child(even) 
 {
-    background-color: #eeeeee;
+    background-color: #eee;
+}
+
+tr:nth-child(odd) 
+{
+    background-color: #fff;
 }
 
 
-tr.even, tr.even_disabled
-{
-    background-color: #ffffff;
-}
-
-
-tr.odd:hover, tr.even:hover
+tr:hover
 {
     background-color: #ccccf8;
 }

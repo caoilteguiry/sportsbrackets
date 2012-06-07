@@ -35,7 +35,7 @@
   </thead>
   <tbody>
 {% for uap in users_and_points %}
-  <tr class="{% cycle 'odd' 'even'%}{% if not uap.user.get_profile.share_predictions %}_disabled{% endif %}">
+  <tr>
     <td class="tablecell">{{forloop.counter}}</td>
     <td title="{{uap.user.first_name}} {{uap.user.last_name}}" class="tablecell">
       {% if uap.user.get_profile.share_predictions %}
