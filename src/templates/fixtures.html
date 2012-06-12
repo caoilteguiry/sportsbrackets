@@ -24,15 +24,16 @@
 <table id="fixtures" style="width:100%" class="tablesorter">
   <thead>
   <tr>
-    <th class="header tablecell">{% trans "Game No" %}</td>
-    <th class="header tablecell">{% trans "Date" %}</td>
-    <th class="header tablecell">{% trans "Venue" %}</td>
-    <th class="header tablecell">{% trans "Team 1" %}</td>
-    <th class="header tablecell">{% trans "Team 2" %}</td>
-    <th class="header tablecell">{% trans "Match Type" %}</td>
+    <th class="header tablecell">{% trans "Game No" %}</th>
+    <th class="header tablecell">{% trans "Date" %}</th>
+    <th class="header tablecell">{% trans "Venue" %}</th>
+    <th class="header tablecell">{% trans "Team 1" %}</th>
+    <th class="header tablecell">{% trans "Team 2" %}</th>
+    <th class="header tablecell">{% trans "Match Type" %}</th>
         {% for rt in all_result_types %}
-        <th class="header tablecell">{{rt.name}}</td>
+        <th class="header tablecell">{{rt.name}}</th>
         {% endfor %}
+    <th class="header tablecell">{% trans "Result" %}</th>
   </tr>
   </thead>
   <tbody>
@@ -63,6 +64,7 @@
        
         </td>
         {% endfor %}
+        <td class="tablecell centered">{{game.fixture.score}}</td>
   </tr>
 {% endfor %}
   </tbody>

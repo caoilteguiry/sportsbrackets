@@ -40,7 +40,7 @@ class ResultTypeAdmin(admin.ModelAdmin):
     ordering = ("name",)
 
 class FixtureAdmin(admin.ModelAdmin):
-    list_display = ("date", "venue", "team1", "team2", "fixture_type", "tournament", "result",)
+    list_display = ("date", "venue", "team1", "team2", "fixture_type", "tournament", "result", "score")
     list_filter = ("tournament",)
     ordering = ("date", "tournament",)
 
