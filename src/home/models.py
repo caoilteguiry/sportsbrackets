@@ -81,7 +81,7 @@ class FixtureType(models.Model):
         verbose_name_plural = u"fixture_types"
     
     def __unicode__(self):
-        return self.name
+        return u'%s (%s)' % (self.name, self.sport)
     
 class Tournament(models.Model):
     name = models.CharField(max_length=100) # XXX: arbitrary max_length
