@@ -41,7 +41,7 @@
   <tr class="{% cycle 'odd' 'even'%}{% if game.is_disabled %}_disabled{%endif%}">
     <td class="tablecell">{{forloop.revcounter}}</td>
     <td class="tablecell">{{game.fixture.date|date:"H:i, d M"}}</td>
-    <td class="tablecell">{{game.fixture.venue}}</td>
+    <td class="tablecell">{{game.fixture.venue|default_if_none:""}}</td>
     <td class="tablecell">{{game.fixture.team1.name}}</td>
     <td class="tablecell">{{game.fixture.team2.name}}</td>
     <td class="tablecell">{{game.fixture.fixture_type}}</td>
