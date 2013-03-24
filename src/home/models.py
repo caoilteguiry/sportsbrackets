@@ -62,6 +62,7 @@ class Team(models.Model):
     class Meta:
         db_table = u"teams"
         verbose_name_plural = u"teams"
+        ordering = ['sport', 'is_international', 'name']
     
     def __unicode__(self):
         return "%s (%s)" % (self.name, self.sport)
