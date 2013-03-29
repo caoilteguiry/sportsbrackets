@@ -207,7 +207,7 @@ def view_table(request, tournament_id):
         # TODO: only get fixtures which are in the past (integrity measure to ensure that only actual "results" are processed)?
         fixtures_and_predictions = Fixture.objects.raw("SELECT f.id, f.fixture_type_id, p.result_id as prediction_id, f.result_id as result_id "
                                                         "FROM predictions AS p LEFT JOIN fixtures AS f ON p.fixture_id=f.id "
-                                                        "WHERE f.tournament_id=%s AND user_id=%s AND f.result_id IS NOT NULL", (tournament_id, user.id))
+                                                        "WHERE f.tournament_id=%s AND user_id=%s ", (tournament_id, user.id))
         if not list(fixtures_and_predictions):
             continue 
 
