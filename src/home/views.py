@@ -35,8 +35,6 @@ __author__ = "Caoilte Guiry"
 * Handle timezones, etc. (Store time in UTC, and adjust for client TZ?)
 * Allow clicking on teams, instead of radio buttons
 * Add menubar? 
-* Format dates
-* Change cursor icon for onclick links
 * Automatically generate knockout fixtures (tricky!)
 * Automatically fill in scores/results (cron scripts)
 * Implement "groups" functionality.
@@ -194,6 +192,17 @@ def view_fixtures(request, tournament_id, user_id=None):
 @login_required
 def view_table(request, tournament_id):
 
+    try:
+        tournament_id = int(tournament_id)
+    except ValuError:
+        return HttpResponse("Tournament '%s' is an invalid tournament." % tournament_id)
+    
+    # Make sure that we are dealing with a valid tournament
+    try:
+        tournament = Tournament.objects.get(pk=tournament_id)
+    except ObjectDoesNotExist:
+        return HttpResponse('Tournament "%s" does not exist. <a href="/tournaments">View Tournaments</a>' % tournament_id)
+
     cache_key = request.path
     logger.info('cache_key=%s' % cache_key)
     users_and_points = cache.get(cache_key)
@@ -204,16 +213,6 @@ def view_table(request, tournament_id):
         is_cached = False
         logger.info("Found no cache")
         # FIXME: This is also really slow (~3s on my home computer). Refine.
-        try:
-            tournament_id = int(tournament_id)
-        except ValuError:
-            return HttpResponse("Tournament '%s' is an invalid tournament." % tournament_id)
-        
-        # Make sure that we are dealing with a valid tournament
-        try:
-            tournament = Tournament.objects.get(pk=tournament_id)
-        except ObjectDoesNotExist:
-            return HttpResponse('Tournament "%s" does not exist. <a href="/tournaments">View Tournaments</a>' % tournament_id)
         
         # We'll store the user and points a in a list, which we'll sort by points at the end (TODO: caching)
         users_and_points = []

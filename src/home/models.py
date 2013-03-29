@@ -134,20 +134,6 @@ class Fixture(models.Model):
         return "%s vs %s" % (self.team1, self.team2)
 
 
-def nuke_table_cache(sender, instance, **kwargs):
-    """
-    We want to delete the league table cache once a prediction has been saved or deleted.
-
-    :param sender: the class of the instance which invoked this method 
-    :type sender: type
-    :param instance: the instance which invoked this method
-    :type instance: django.db.models.Model
-    """
-    cache_key = reverse('home.views.view_table', args=(instance.tournament.id,))
-    cache.delete(cache_key)
-
-post_save.connect(nuke_table_cache, sender=Fixture)
-post_delete.connect(nuke_table_cache, sender=Fixture)
 
 
 class Prediction(models.Model):
@@ -161,3 +147,32 @@ class Prediction(models.Model):
     
     def __unicode__(self):
         return u"%s predicts a %s for %s " % (self.user, self.result, self.fixture)
+
+
+
+def nuke_table_cache(sender, instance, **kwargs):
+    """
+    We want to delete the league table cache once a prediction has been saved or deleted.
+
+    :param sender: the class of the instance which invoked this method 
+    :type sender: type
+    :param instance: the instance which invoked this method
+    :type instance: django.db.models.Model
+    """
+    if sender == Prediction:
+        fixture = instance.fixture
+    elif sender == Fixture:
+        fixture = instance
+    else:
+        # Should not have been called, probably want to fail silently, so will 
+        # return at this point 
+        logger.error('nuke_table_cache got unexpected sender %s' % sender)
+        logger.info('instance=%s' % instance) 
+        return
+    cache_key = reverse('home.views.view_table', args=(fixture.tournament.id,))
+    cache.delete(cache_key)
+
+post_save.connect(nuke_table_cache, sender=Fixture)
+post_delete.connect(nuke_table_cache, sender=Fixture)
+post_save.connect(nuke_table_cache, sender=Prediction)
+post_delete.connect(nuke_table_cache, sender=Prediction)
