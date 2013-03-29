@@ -42,5 +42,4 @@ urlpatterns = patterns('',
     url('^tournaments/(?P<tournament_id>\d+)/fixtures/(?P<user_id>\d+)/$', 'home.views.view_fixtures'),
     #url('^tournaments/(?P<tournament_id>\d+)/new_fixtures/$', 'home.views.view_fixtures_new'),
     url('^tournaments/(?P<tournament_id>\d+)/table/$', 'home.views.view_table'),
-    url('^tournaments/(?P<tournament_id>\d+)/predictions/(?P<user_id>\d+)/$', 'home.views.view_user_predictions'),
 )
