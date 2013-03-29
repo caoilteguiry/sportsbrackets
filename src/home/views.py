@@ -16,6 +16,7 @@ from django.contrib.auth.models import User
 from django.db.models import Q
 from django.utils.translation import ugettext as _
 from django.template import RequestContext
+from django.core.cache import cache
 
 
 from models import ResultType
@@ -31,7 +32,6 @@ logger = logging.getLogger("debugger")
 __author__ = "Caoilte Guiry"
 
 """ TODO:  
-* Cache league table
 * Handle timezones, etc. (Store time in UTC, and adjust for client TZ?)
 * Allow clicking on teams, instead of radio buttons
 * Add menubar? 
@@ -195,78 +195,92 @@ def view_fixtures(request, tournament_id, user_id=None):
 
 @login_required
 def view_table(request, tournament_id):
-    # FIXME: This is also really slow (~3s on my home computer). Refine, and use caching
-    try:
-        tournament_id = int(tournament_id)
-    except ValuError:
-        return HttpResponse("Tournament '%s' is an invalid tournament." % tournament_id)
-    
-    # Make sure that we are dealing with a valid tournament
-    try:
-        tournament = Tournament.objects.get(pk=tournament_id)
-    except ObjectDoesNotExist:
-        return HttpResponse('Tournament "%s" does not exist. <a href="/tournaments">View Tournaments</a>' % tournament_id)
-    
-    # We'll store the user and points a in a list, which we'll sort by points at the end (TODO: caching)
-    users_and_points = []
-    users = User.objects.all()
-    
-    for user in users:
-        # TODO: only get fixtures which are in the past (integrity measure to ensure that only actual "results" are processed)?
-        fixtures_and_predictions = Fixture.objects.raw("SELECT f.id, f.fixture_type_id, p.result_id as prediction_id, f.result_id as result_id "
-                                                        "FROM predictions AS p LEFT JOIN fixtures AS f ON p.fixture_id=f.id "
-                                                        "WHERE f.tournament_id=%s AND user_id=%s ", (tournament_id, user.id))
-        if not list(fixtures_and_predictions):
-            continue 
 
-        # Initialise the user with zero points
-        uap = {
-          "user":user, 
-          "username":user.username,
-          "played":len(list(fixtures_and_predictions)),
-          "correct_wins":0,
-          "semicorrect_wins":0,
-          "incorrect_wins":0,
-          "correct_draws":0,
-          "incorrect_draws":0,
-          "points":0
-        }
-    
-        # Iterate over the fixtures_and_predictions, checking if the user guessed correctly
-        for fap in fixtures_and_predictions:
-            try:
-                # TODO: cache this! 
-                # TODO: get by sport id (yet to be implemented).
-                fixture_type = FixtureType.objects.get(pk=fap.fixture_type_id) 
-            except ObjectDoesNotExist:
-                return HttpResponse("ERROR: failed to generate league table. No such fixture type '%s'" % fap.fixture_type_id)
-            
-            # Handle the "win" cases first
-            if fap.prediction_id in [1, 2]:
-                if fap.prediction_id == fap.result_id:
-                    uap["correct_wins"] += 1
-                    uap["points"] += fixture_type.correct_win_points
-                elif fap.result_id == 3:
-                    uap["semicorrect_wins"] += 1
-                    uap["points"] += fixture_type.semicorrect_win_points
-                else:
-                    uap["incorrect_wins"] += 1
-                    uap["points"] += fixture_type.incorrect_win_points
-            elif fap.prediction_id == 3:
-                if fap.prediction_id == fap.result_id:
-                    uap["correct_draws"] += 1
-                    uap["points"] += fixture_type.correct_draw_points
-                else:
-                    uap["incorrect_draws"] += 1
-                    uap["points"] += fixture_type.incorrect_draw_points
-            else:
-                return HttpResponse("ERROR: Invalid prediction '%s' for user '%s'" % (fap.prediction_id, user))
+    cache_key = request.path
+    logger.info('cache_key=%s' % cache_key)
+    users_and_points = cache.get(cache_key)
 
-        users_and_points.append(uap)
+
+    is_cached = True
+    if not users_and_points:
+        is_cached = False
+        logger.info("Found no cache")
+        # FIXME: This is also really slow (~3s on my home computer). Refine.
+        try:
+            tournament_id = int(tournament_id)
+        except ValuError:
+            return HttpResponse("Tournament '%s' is an invalid tournament." % tournament_id)
+        
+        # Make sure that we are dealing with a valid tournament
+        try:
+            tournament = Tournament.objects.get(pk=tournament_id)
+        except ObjectDoesNotExist:
+            return HttpResponse('Tournament "%s" does not exist. <a href="/tournaments">View Tournaments</a>' % tournament_id)
+        
+        # We'll store the user and points a in a list, which we'll sort by points at the end (TODO: caching)
+        users_and_points = []
+        users = User.objects.all()
+        
+        for user in users:
+            # TODO: only get fixtures which are in the past (integrity measure to ensure that only actual "results" are processed)?
+            fixtures_and_predictions = Fixture.objects.raw("SELECT f.id, f.fixture_type_id, p.result_id as prediction_id, f.result_id as result_id "
+                                                            "FROM predictions AS p LEFT JOIN fixtures AS f ON p.fixture_id=f.id "
+                                                            "WHERE f.tournament_id=%s AND user_id=%s ", (tournament_id, user.id))
+            if not list(fixtures_and_predictions):
+                continue 
+
+            # Initialise the user with zero points
+            uap = {
+              "user":user, 
+              "username":user.username,
+              "played":len(list(fixtures_and_predictions)),
+              "correct_wins":0,
+              "semicorrect_wins":0,
+              "incorrect_wins":0,
+              "correct_draws":0,
+              "incorrect_draws":0,
+              "points":0
+            }
+        
+            # Iterate over the fixtures_and_predictions, checking if the user guessed correctly
+            for fap in fixtures_and_predictions:
+                try:
+                    # TODO: cache this! 
+                    # TODO: get by sport id (yet to be implemented).
+                    fixture_type = FixtureType.objects.get(pk=fap.fixture_type_id) 
+                except ObjectDoesNotExist:
+                    return HttpResponse("ERROR: failed to generate league table. No such fixture type '%s'" % fap.fixture_type_id)
+                
+                # Handle the "win" cases first
+                if fap.prediction_id in [1, 2]:
+                    if fap.prediction_id == fap.result_id:
+                        uap["correct_wins"] += 1
+                        uap["points"] += fixture_type.correct_win_points
+                    elif fap.result_id == 3:
+                        uap["semicorrect_wins"] += 1
+                        uap["points"] += fixture_type.semicorrect_win_points
+                    else:
+                        uap["incorrect_wins"] += 1
+                        uap["points"] += fixture_type.incorrect_win_points
+                elif fap.prediction_id == 3:
+                    if fap.prediction_id == fap.result_id:
+                        uap["correct_draws"] += 1
+                        uap["points"] += fixture_type.correct_draw_points
+                    else:
+                        uap["incorrect_draws"] += 1
+                        uap["points"] += fixture_type.incorrect_draw_points
+                else:
+                    return HttpResponse("ERROR: Invalid prediction '%s' for user '%s'" % (fap.prediction_id, user))
+
+            users_and_points.append(uap)
+        
+        # Sort the users_and_points list by points
+        users_and_points.sort(key=lambda x: x['username'].lower())
+        users_and_points.sort(key=lambda x: x['points'], reverse=True)
+        
+        cache.set(cache_key, users_and_points)
+        
     
-    # Sort the users_and_points list by points
-    users_and_points.sort(key=lambda x: x['username'].lower())
-    users_and_points.sort(key=lambda x: x['points'], reverse=True)
-    
+
     return render_to_response("table.html", locals(), context_instance=RequestContext(request))
 

@@ -3,8 +3,15 @@
 
 __author__ = "Caoilte Guiry"
 
+import logging
+
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.cache import cache
+from django.db.models.signals import post_save, post_delete
+from django.core.urlresolvers import reverse
+
+logger = logging.getLogger("debugger")
 
 class Sport(models.Model):
     name = models.CharField(max_length=20) # XXX: arbitrary max_length
@@ -125,7 +132,24 @@ class Fixture(models.Model):
         
     def __unicode__(self):
         return "%s vs %s" % (self.team1, self.team2)
-    
+
+
+def nuke_table_cache(sender, instance, **kwargs):
+    """
+    We want to delete the league table cache once a prediction has been saved or deleted.
+
+    :param sender: the class of the instance which invoked this method 
+    :type sender: type
+    :param instance: the instance which invoked this method
+    :type instance: django.db.models.Model
+    """
+    cache_key = reverse('home.views.view_table', args=(instance.tournament.id,))
+    cache.delete(cache_key)
+
+post_save.connect(nuke_table_cache, sender=Fixture)
+post_delete.connect(nuke_table_cache, sender=Fixture)
+
+
 class Prediction(models.Model):
     user = models.ForeignKey(User)
     fixture = models.ForeignKey(Fixture)
