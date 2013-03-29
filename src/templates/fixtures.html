@@ -18,9 +18,14 @@
 {% if fixtures %}
 <form action="" method="post">
   {% csrf_token %}
+  {% if not user_id %}
   <div style="text-align:right">
     <input type="submit" name="submit_button" value="{% trans "Save" %}"/>
   </div>
+  {% endif %}
+<div>
+    Predictions for {{user.first_name}} {{user.last_name}}
+</div>
 <table id="fixtures" style="width:100%" class="tablesorter">
   <thead>
   <tr>
@@ -69,9 +74,11 @@
 {% endfor %}
   </tbody>
 </table>
+{% if not user_id %}
 <div style="text-align:right">
     <input type="submit" name="submit_button" value="{% trans "Save" %}"/>
 </div>
+{% endif %}
 </form>
 {% else %}
 <br>

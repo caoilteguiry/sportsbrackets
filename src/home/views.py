@@ -6,17 +6,16 @@ __author__ = "Caoilte Guiry"
 import datetime
 import logging
 
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
-from django.core.exceptions import ObjectDoesNotExist
+from django.core.exceptions import ObjectDoesNotExist, PermissionDenied
 from django.utils.datastructures import MultiValueDictKeyError
 from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.db.models import Q
 from django.utils.translation import ugettext as _
 from django.template import RequestContext
-from django.shortcuts import redirect
 
 
 from models import ResultType
@@ -107,13 +106,21 @@ def tournaments(request):
 
 
 @login_required
-def view_fixtures(request, tournament_id):
+def view_fixtures(request, tournament_id, user_id=None):
     # XXX: All of the following is very inefficient (hurriedly implemented to get things finished in
     # time for wc2010). I've begun work on a replacement view that uses joins instead of making 
     # queries within loops; will merge in once its finished.
 
+    if user_id:
+        user = User.objects.get(id=user_id)
+    else:
+        user = request.user
+
+
     now = datetime.datetime.now()  # TODO: Allow pardon of 1 minute maybe?
     if request.method == "POST":
+        if user_id:
+            raise PermissionDenied("Not allowed POST to this URL")
         # extract the pertinent POST values (i.e. those with numeric keys)
         predictions_req = dict([(k,v) for k,v in request.POST.items() if str(k).isdigit()])
         for fixture_id, result_type_id in predictions_req.items():
@@ -133,7 +140,6 @@ def view_fixtures(request, tournament_id):
                 # No such result type.
                 continue
 
-            user = request.user #
             
             # TODO: add a create_or_update() method for Prediction (i.e. PUT) 
             # (this kind of idiom must exist in django already surely?)
@@ -164,7 +170,7 @@ def view_fixtures(request, tournament_id):
     games = []  # this array stores dicts containing a fixture, prediction, is_disabled bool val, and 
     for fixture in fixtures:
         try:
-            prediction = Prediction.objects.filter(fixture=fixture.id).get(user=request.user)
+            prediction = Prediction.objects.filter(fixture=fixture.id).get(user=user)
         except ObjectDoesNotExist:
             prediction = None
         
@@ -264,26 +270,3 @@ def view_table(request, tournament_id):
     
     return render_to_response("table.html", locals(), context_instance=RequestContext(request))
 
-# XXX: Perhaps only allow this if they are in your group? Or maybe have two distinct settings
-# share_predictions_globally and share_predictions_to_group 
-@login_required
-def view_user_predictions(request, user_id, tournament_id):
-    #return HttpResponse("user_id=%s, tid=%s" % (user_id, tournament_id))
-    try:
-        user = User.objects.get(pk=user_id)
-    except ObjectDoesNotExist:
-        return HttpResponse("No such user '%s'" % user_id) 
-    try:
-        tournament = Tournament.objects.get(pk=tournament_id)
-    except ObjectDoesNotExist:
-        return HttpResponse("No such tournament '%s'" % tournament_id)
-    
-    if not user.get_profile().share_predictions:
-        return HttpResponse("Sorry, <strong>%s</strong> does not share their predictions" % user    )
-    
-    predictions = Prediction.objects.raw("SELECT p.id From predictions AS p "
-                                         "LEFT JOIN fixtures AS f ON p.fixture_id=f.id "
-                                         "LEFT JOIN tournaments AS t ON f.tournament_id=t.id "
-                                         "WHERE t.id=%s AND p.user_id=%s "
-                                         "ORDER BY f.date" , (tournament_id, user_id))
-    return render_to_response("predictions.html", locals(), context_instance=RequestContext(request))
