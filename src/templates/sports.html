@@ -4,7 +4,7 @@
 <h1><a href="/sports/">{% trans "Sports"%}</a></h1>
 <table width="100%">
 {% for sport in sports %}
-  <tr class="{% cycle 'odd' 'even'%}">  
+  <tr class="clickable {% cycle 'odd' 'even'%}" onclick="window.location='/sports/{{sport.id}}'">  
     <td class="tablecell"><a href="/sports/{{sport.id}}">{{sport.name}}</a></td>
   </tr>
 {% endfor %}

@@ -166,3 +166,9 @@ td.centered
 {
       margin-left:15px;
 }
+
+
+.clickable
+{
+    cursor: hand; cursor: pointer;
+}

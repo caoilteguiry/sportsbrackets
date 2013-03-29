@@ -39,10 +39,8 @@ __author__ = "Caoilte Guiry"
 * Change cursor icon for onclick links
 * Automatically generate knockout fixtures (tricky!)
 * Automatically fill in scores/results (cron scripts)
-* Only print users in league table if they've actually predicted outcomes
 * Implement "groups" functionality.
 * Sort out join stuff (very inefficient!)
-* Add original stuff (wc2010)
 * Delete unused teams (we don't nee all 300 world countires!)
 * Links (login & register) should cover full button, not just the <a> part
 * Color login buttons on login page like the other buttons

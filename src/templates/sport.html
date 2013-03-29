@@ -11,9 +11,9 @@
     <td class="header tablecell">{% trans "Ends" %}</td>
   </tr>
 {% for t in tournaments %}
-  <tr onclick="window.location='/tournaments/{{t.id}}/fixtures/'" class="{% cycle 'odd' 'even'%}">
+  <tr onclick="window.location='/tournaments/{{t.id}}/fixtures/'" class="clickable {% cycle 'odd' 'even'%}">
       <td class="tablecell">{{forloop.counter}}</td>
-      <td class="tablecell">{{t.name}}</td>
+      <td class="tablecell"><a href="/tournaments/{{t.id}}/fixtures/">{{t.name}}</a></td>
       <td class="tablecell">{{t.begin_date}}</td>
       <td class="tablecell" >{{t.end_date}}</td>
   </tr>
