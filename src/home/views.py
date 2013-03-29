@@ -16,6 +16,8 @@ from django.contrib.auth.models import User
 from django.db.models import Q
 from django.utils.translation import ugettext as _
 from django.template import RequestContext
+from django.shortcuts import redirect
+
 
 from models import ResultType
 from models import Tournament
@@ -145,7 +147,7 @@ def view_fixtures(request, tournament_id):
                 prediction = Prediction(user=user, fixture=fixture, result=result_type)
                 # FIXME: This is quite inefficient. Generate a comma-separated insert query instead. 
                 prediction.save() 
-            # TODO: Use POST/REDIRECT/GET pattern here.
+            return redirect(request.get_full_path())
     
     
     all_result_types = ResultType.objects.all()  # TODO: error handling if no result types found?
