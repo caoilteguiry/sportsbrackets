@@ -117,7 +117,9 @@ class ResultType(models.Model):
     
 
 class Fixture(models.Model):
-    date = models.DateTimeField(null=True, blank=True)
+    # FIXME: should probably be mandatory. Otherwise get TypeError comparing 
+    # now (datetime) to None in tournaments view
+    date = models.DateTimeField(null=True, blank=True) 
     venue = models.ForeignKey(Venue, null=True, blank=True)
     team1 = models.ForeignKey(Team, related_name="team1")
     team2 = models.ForeignKey(Team, related_name="team2")
