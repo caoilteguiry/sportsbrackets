@@ -149,7 +149,7 @@ def view_fixtures(request, tournament_id, user_id=None):
                 prediction = Prediction(user=user, fixture=fixture, result=result_type)
                 # FIXME: This is quite inefficient. Generate a comma-separated insert query instead. 
                 prediction.save() 
-            return redirect(request.get_full_path())
+        return redirect(request.get_full_path())
     
     
     all_result_types = ResultType.objects.all()  # TODO: error handling if no result types found?
